@@ -9,8 +9,7 @@
 		{
 			"unit": "tank",
 			"requirements": [
-				{ "item": "bitcoin", "amount": 25 },
-				{ "item": "silicon", "amount": 60 }
+				{ "item": "bitcoin", "amount": 25 }
 			],
 			"time": 1200
 		},
