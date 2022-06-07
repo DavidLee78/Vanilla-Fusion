@@ -1,20 +1,22 @@
 {
-	"type": "GenericCrafter",
-	"name": "Bitcoin Miner"
+	"type": "drill",
+	"name": "Quantum Drill"
 	"size": 4,
 	"tier": 9,
-	"drillTime": 1000,
-	"outputItem": {"item": "bitcoin", "amount": 1},
+	"drillTime": 50,
 	"consumes": {
-		"power": 3.5,
+		"power": 3.5,	
 		},
+		"items": {
+			"items": [
+				{ "item": "bitcoin", "amount": 0.5},
 	"requirements": [
 		{ "item": "copper", "amount": 60 },
 		{ "item": "silicon", "amount": 40 },
 		{ "item": "graphite", "amount": 20 }
 	],
 	"category": "production",
-	"research": "mechanical-drill"
+	"research": "tank"
 }
 
 
