@@ -1,8 +1,9 @@
 {
-	"type": "Drill",
+	"type": "GenericCrafter",
+	"name": "Bitcoin Miner"
 	"size": 4,
 	"tier": 9,
-	"drillTime": 80.0,
+	"drillTime": 1000,
 	"outputItem": {"item": "bitcoin", "amount": 1},
 	"consumes": {
 		"power": 3.5,
@@ -15,3 +16,7 @@
 	"category": "production",
 	"research": "mechanical-drill"
 }
+
+
+
+
