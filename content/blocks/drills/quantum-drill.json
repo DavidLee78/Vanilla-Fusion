@@ -6,10 +6,12 @@
 	"drillTime": 50,
 	"consumes": {
 		"power": 3.5,	
-		},
 		"items": {
-			"items": [
-				{ "item": "bitcoin", "amount": 0.5},
+		"items": [
+				{ "item": "bitcoin", "amount": 1 }
+			]
+		},
+	},
 	"requirements": [
 		{ "item": "copper", "amount": 60 },
 		{ "item": "silicon", "amount": 40 },
@@ -18,7 +20,5 @@
 	"category": "production",
 	"research": "tank"
 }
-
-
 
 
