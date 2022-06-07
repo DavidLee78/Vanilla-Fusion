@@ -9,7 +9,8 @@
 		{
 			"unit": "tank",
 			"requirements": [
-				{ "item": "bitcoin", "amount": 25 }
+				{ "item": "bitcoin", "amount": 50 },
+              	{ "item": "thorium", "amount": 100 }
 			],
 			"time": 1200
 		},

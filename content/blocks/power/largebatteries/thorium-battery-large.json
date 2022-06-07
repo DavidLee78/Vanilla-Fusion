@@ -1,0 +1,18 @@
+{
+  "type": "battery",
+  "size": 3,
+  "health": 2500,
+  "canOverdrive": true,
+  "category": "power",
+  "research": "battery",
+  "BuildVisibility": "shown",
+  "consumes": {
+    "powerBuffered": "1920000.0"
+	},
+  "requirements": [
+    { "item": "lead", "amount": "2500" },
+    { "item": "titanium", "amount": "1000"" },
+    { "item": "silicon", "amount": "1000" },
+    { "item": "thorium", "amount": "2500" }
+  ],
+}
