@@ -28,10 +28,12 @@
 		"power": 2,
 		}
 	"requirements": [
-        "copper/90",
-        "lead/120"
+		{ "item": "copper", "amount": 30 },
+		{ "item": "graphite", "amount": 20 },
+		{ "item": "titanium", "amount": 10 }
 	],
 	"category": "crafting",
-	"research": "graphite-press",
+	"research": "battery",
 	"outputItem": "bitcoin/2"
 }
+
