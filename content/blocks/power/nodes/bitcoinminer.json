@@ -27,7 +27,6 @@
 	"consumes": {
 		"power": 2,
 		}
-	},
 	"requirements": [
         "copper/90",
         "lead/120"
