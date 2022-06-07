@@ -7,13 +7,18 @@
 	},
 	"plans": [
 		{
-			"unit": "ThoriumTank",
+			"unit": "tank",
 			"requirements": [
-				{ "item": "bitcoin", "amount": 50 },
-				{ "item": "thorium", "amount": 80 }
+				{ "item": "bitcoin", "amount": 25 },
+				{ "item": "silicon", "amount": 60 }
 			],
 			"time": 1200
-		}
+		},
+	]
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "silicon", "amount": 60 }
 	],
 	"category": "units"
 	"research": "command-center"
