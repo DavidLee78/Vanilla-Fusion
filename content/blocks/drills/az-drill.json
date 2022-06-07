@@ -7,7 +7,7 @@
 	"consumes": {
 		"power": 3.5,
 		}
-	},
+	}
 	"requirements": [
 		{ "item": "copper", "amount": 60 },
 		{ "item": "silicon", "amount": 40 },
