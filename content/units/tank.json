@@ -17,9 +17,9 @@
 			"damage": 35,
 			"homingRange":120,
 			"homingPower":7,
-			"speed": 2,
+			"speed": 3,
 			"lifetime": 160
-			"frontColor": "000000",
+			"frontColor": "00ff00",
 			"backColor": "1f1f1f",
 			"trailColor": "141414"
             "mixColorFrom": "000000",
