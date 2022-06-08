@@ -4,7 +4,7 @@
 	"type": "DrawSmelter",
 	"flameColor": "73FFAEFF"
 	},
-	"name": "Bitcoin Miner small",
+	"name": "Bitcoin Miner",
 	"description": "Uses power to mine Bitcoin, can be used as a store of value and can be traded for various resources",
 	"size": 2,
 	 "researchCostMultiplier": 0.1,
@@ -34,7 +34,7 @@
 		{ "item": "graphite", "amount": 20 },
 		{ "item": "titanium", "amount": 10 }
 	],
-	"category": "crafting",
+	"category": "power",
 	"research": "battery",
 	"outputItem": "bitcoin/1"
 }

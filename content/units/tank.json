@@ -1,5 +1,6 @@
 {
 	"type": "mech",
+	"name": "Thorium Tank",
 	"speed": 0.8,
 	"flying": false,
 	"health": 500,
