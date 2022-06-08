@@ -1,10 +1,10 @@
 {
 	"type": "material",
-	"name": "Bitcoin",
+	"name": "Ether",
 	"description": "One of the most sacre  Resource, can be traded for alot of things in future",
-	"hardness": 1,
+	"hardness": 10,
 	"cost": 2.0,
 	"color": "c3c9c5",
-	"explosiveness": 0
-	"flammability": 0
+	"explosiveness": 1
+	"flammability": 1
 }

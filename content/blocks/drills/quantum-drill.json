@@ -8,7 +8,7 @@
 		"power": 3.5,	
 		"items": {
 		"items": [
-				{ "item": "bitcoin", "amount": 1 }
+				{ "item": "satoshi", "amount": 10 }
 			]
 		},
 	},

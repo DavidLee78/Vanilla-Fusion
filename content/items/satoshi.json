@@ -1,0 +1,10 @@
+{
+	"type": "material",
+	"name": "Satoshi",
+	"description": "Satoshis can be traded for various Resources, can be combined to Ether",
+	"hardness": 1,
+	"cost": 2.0,
+	"color": "c3c9c5",
+	"explosiveness": 0
+	"flammability": 0
+}

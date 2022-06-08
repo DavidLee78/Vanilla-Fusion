@@ -13,13 +13,13 @@
 		"power": 5,
 		"items": {
 			"items": [
-				{ "item": "bitcoin", "amount": 1},
-             	{ "item": "copper", "amount": 25},
+				{ "item": "ether", "amount": 1},
+             	{ "item": "copper", "amount": 50},
 			]
 		}
 	},
 	"requirements": [
-		{ "item": "bitcoin", "amount": 20 },
+		{ "item": "ether", "amount": 20 },
 		{ "item": "thorium", "amount": 250 },
 		{ "item": "surge-alloy", "amount": 200 },
 		{ "item": "graphite", "amount": 100 },

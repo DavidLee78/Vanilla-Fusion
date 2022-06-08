@@ -4,7 +4,7 @@
 	"type": "DrawSmelter",
 	"flameColor": "73FFAEFF"
 	},
-	"name": "Bitcoin Miner",
+	"name": "Satoshi Miner",
 	"description": "Uses power to mine Bitcoin, can be used as a store of value and can be traded for various resources",
 	"size": 2,
 	 "researchCostMultiplier": 0.1,
@@ -24,7 +24,7 @@
     "colorTo": "73FFAEFF",
     "colorFrom": "73FFAEFF"
     },
-	"craftTime": 1000,
+	"craftTime": 500,
 	"updateEffect": "none",
 	"consumes": {
 		"power": 2,
@@ -36,6 +36,6 @@
 	],
 	"category": "power",
 	"research": "battery",
-	"outputItem": "bitcoin/1"
+	"outputItem": "satoshi/5"
 }
 

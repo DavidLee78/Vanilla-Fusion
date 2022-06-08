@@ -1,7 +1,7 @@
 	"type": "UnitFactory",
 	"health": 500,
-	"name": "Trade Center",
-	"description":"Here you can exchange your hard mined Bitcoin in all sorts of units",
+	"name": "Unit Center",
+	"description":"Can be used to craft the most advanced units, operations cost Ether",
 	"size": 3,
 	"itemCapacity": 30,
 	"consumes": {
@@ -11,16 +11,16 @@
 		{
 			"unit": "tank",
 			"requirements": [
-				{ "item": "bitcoin", "amount": 50 },
+				{ "item": "ether", "amount": 50 },
               	{ "item": "thorium", "amount": 100 }
 			],
 			"time": 1200
 		},
 	]
 	"requirements": [
-		{ "item": "lead", "amount": 50 },
-		{ "item": "thorium", "amount": 80 },
-		{ "item": "silicon", "amount": 60 }
+		{ "item": "lead", "amount": 500 },
+		{ "item": "thorium", "amount": 200 },
+		{ "item": "silicon", "amount": 100 }
 	],
 	"category": "units"
 	"research": "command-center"
