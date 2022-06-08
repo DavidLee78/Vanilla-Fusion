@@ -24,7 +24,7 @@
     "colorTo": "73FFAEFF",
     "colorFrom": "73FFAEFF"
     },
-	"craftTime": 250,
+	"craftTime": 50,
 	"updateEffect": "none",
 	"consumes": {
 		"power": 2,
