@@ -1,0 +1,32 @@
+{
+	"type": "GenericCrafter",
+	"name": "N.P.E-2 'Th'",
+	"description": "Nuclear Properties Editor or N.P.E is used to change the Electron Structure of Copper to transmutate it in various Resources,the use of this technology costs Bitcoin",
+"itemCapacity": 50,
+	"outputItem": {"item": "thorium", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 250,
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				{ "item": "bitcoin", "amount": 1},
+             	{ "item": "copper", "amount": 25},
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "bitcoin", "amount": 20 },
+		{ "item": "thorium", "amount": 250 },
+		{ "item": "plastinum	", "amount": 200 },
+		{ "item": "graphite", "amount": 100 },
+		{ "item": "silicon", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "melter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,5 +1,7 @@
 	"type": "UnitFactory",
 	"health": 500,
+	"name": "Trade Center",
+	"description":"Here you can exchange your hard mined Bitcoin in all sorts of units",
 	"size": 3,
 	"itemCapacity": 30,
 	"consumes": {

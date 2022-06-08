@@ -1,14 +1,16 @@
 {	
-    "type": "GenericCrafter",
+    "type": "GenericCrafter", 
 	"drawer": {
 	"type": "DrawSmelter",
 	"flameColor": "73FFAEFF"
 	},
+	"name": "Bitcoin Miner small",
+	"description": "Uses power to mine Bitcoin, can be used as a store of value and can be traded for various resources",
 	"size": 2,
 	 "researchCostMultiplier": 0.1,
 	"hasPower": true,
 	"hasItems": true,
-	"itemCapacity": 10,
+	"itemCapacity": 10,	
 	"craftEffect": {
     "type": "ParticleEffect",
     "particles": 6,
@@ -34,6 +36,6 @@
 	],
 	"category": "crafting",
 	"research": "battery",
-	"outputItem": "bitcoin/2"
+	"outputItem": "bitcoin/1"
 }
 
