@@ -1,0 +1,41 @@
+{	
+    "type": "GenericSmelter", 
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "73FFAEFF"
+	},
+	"name": "Satoshi Miner",
+	"description": "Uses power to mine Bitcoin, can be used as a store of value and can be traded for various resources",
+	"size": 2,
+	 "researchCostMultiplier": 0.1,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,	
+	"craftEffect": {
+    "type": "ParticleEffect",
+    "particles": 6,
+    "length": 20,
+    "baseLength": -20,
+    "offset": 3,
+    "cone": 360,
+    "lifetime": 28,
+    "sizeFrom": 0,
+    "sizeTo": 2,
+    "colorTo": "73FFAEFF",
+    "colorFrom": "73FFAEFF"
+    },
+	"craftTime": 250,
+	"updateEffect": "none",
+	"consumes": {
+		"power": 2,
+		}
+	"requirements": [
+		{ "item": "copper", "amount": 30 },
+		{ "item": "graphite", "amount": 20 },
+		{ "item": "titanium", "amount": 10 }
+	],
+	"category": "power",
+	"research": "battery",
+	"outputItem": "satoshi/1"
+}
+

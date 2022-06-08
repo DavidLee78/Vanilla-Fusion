@@ -4,13 +4,13 @@
 	"type": "DrawSmelter",
 	"flameColor": "73FFAEFF"
 	},
-	"name": "Satoshi Miner",
-	"description": "Uses power to mine Bitcoin, can be used as a store of value and can be traded for various resources",
+	"name": "Ether Mine",
+	"description": "Uses power and Satoshi to create Ether",
 	"size": 2,
 	 "researchCostMultiplier": 0.1,
 	"hasPower": true,
 	"hasItems": true,
-	"itemCapacity": 10,	
+	"itemCapacity": 250,	
 	"craftEffect": {
     "type": "ParticleEffect",
     "particles": 6,
@@ -28,14 +28,19 @@
 	"updateEffect": "none",
 	"consumes": {
 		"power": 2,
+		 "items": {
+		 "items": [
+				{ "item": "satoshi", "amount": 50}, 
+			]
+		}
 		}
 	"requirements": [
-		{ "item": "copper", "amount": 30 },
-		{ "item": "graphite", "amount": 20 },
-		{ "item": "titanium", "amount": 10 }
+		{ "item": "satoshi", "amount": 500 },
+		{ "item": "thorium", "amount": 250 },
+		{ "item": "titanium", "amount": 125 }
 	],
 	"category": "power",
 	"research": "battery",
-	"outputItem": "satoshi/5"
+	"outputItem": "ether/1"
 }
 
