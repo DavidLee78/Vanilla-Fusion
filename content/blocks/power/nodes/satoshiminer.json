@@ -1,5 +1,5 @@
 {	
-    "type": "GenericSmelter", 
+    "type": "GenericCrafter", 
 	"drawer": {
 	"type": "DrawSmelter",
 	"flameColor": "73FFAEFF"
