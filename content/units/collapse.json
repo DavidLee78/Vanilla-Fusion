@@ -2,8 +2,8 @@
 "name": "Collapse",
 "type": "legs",
 "research": {
-"requirements": [
 "parent": "tank",
+"requirements": [
 "ether/500"
 "silicon/1670"
 ]
