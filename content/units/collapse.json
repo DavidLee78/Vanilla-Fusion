@@ -2,7 +2,7 @@
 "name": "Collapse",
 "type": "legs",
 "research": {
-"parent": "commandcenter",
+"parent": "power",
 "requirements": [
 "ether/500"
 "silicon/1670"
