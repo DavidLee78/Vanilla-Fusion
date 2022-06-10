@@ -12,8 +12,8 @@
   "weapons": [
   {
     "name": "solar-cannon",
-    "y": 0,
-    "x": 23,
+    "y": -10,
+    "x": 0,
     "top": true,
     "mirror": false,
     "alternate": true,
