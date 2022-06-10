@@ -12,9 +12,9 @@
   "weapons": [
   {
   "name": "supernova",
-  "x": 0,
-  "y": 0,
-  "reload": 760,
+  "x": 1,
+  "y": 1,
+  "reload": 350,
   "alternate": false,
   "mirror": false,
   "top": false,
@@ -24,7 +24,7 @@
   "firstShotDelay": 130,
   "shake": 20,
   "chargeSound": "chargeup",
-  "shootSound": "jupiterImpact",
+  "shootSound": "missle",
   "ejectEffect": "none",
   "bullet": { 
   "type": "BasicBulletType",
