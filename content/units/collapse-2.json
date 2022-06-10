@@ -4,7 +4,11 @@
 "research": {
 "parent": "fusion",
 "requirements": [
-"ether/500"
+"volcanite/1920",
+"surge-alloy/1300",
+"plastanium/1040",
+"primal-red/950",
+"osmium/1440",
 "silicon/1670"
 ]
 },
@@ -320,7 +324,7 @@
   "ejectEffect": "casing1",
   "bullet": {
   "type": "BasicBulletType",
-  "sprite" : "vanillafusion-star-core-bullet",
+  "sprite" : "exogenesis-star-core-bullet",
   "status": {
   "name": "solar1-flare",
   "reloadMultiplier": 0.5,
@@ -429,7 +433,7 @@
     "sizeTo": 0,
     "length": 0,
     "spin": 7,
-    "region": "vanillafusion-raydouble",
+    "region": "exogenesis-raydouble",
     "layer": 108,
     "lifetime": 56,
     "colorFrom": "FF5845FF",
@@ -561,7 +565,7 @@
     "sizeTo": 0,
     "length": 0,
     "spin": 7,
-    "region": "vanillafusion-raydouble",
+    "region": "exogenesis-raydouble",
     "layer": 108,
     "lifetime": 56,
     "colorFrom": "FF5845FF",
@@ -651,7 +655,7 @@
     "lifetime": 28,
     "spin": 9,
     "layer": 109,
-    "region": "vanillafusion-tall",
+    "region": "exogenesis-tall",
     "colorFrom": "FF5845FF",
     "colorTo": "FF5845FF"
     },
@@ -664,7 +668,7 @@
     "lifetime": 28,
     "spin": -9,
     "layer": 109,
-    "region": "vanillafusion-tall",
+    "region": "exogenesis-tall",
     "colorFrom": "FF5845FF",
     "colorTo": "FF5845FF"
     },
@@ -835,7 +839,7 @@
     "sectorRad": 0,
     "effectRadius": 7,
     "reload": 1,
-    "status": "vanillafusion-molten1"
+    "status": "exogenesis-molten1"
     },
     {
      "type": "mindustry.entities.abilities.StatusFieldAbility",
@@ -854,7 +858,7 @@
       "sizeTo": 30,
       "spin": 12,
       "particles": 1,
-      "region": "vanillafusion-plasma-gas1",
+      "region": "exogenesis-plasma-gas1",
       "colorFrom": "FF5845FF",
       "colorTo": "FF5845FF"
       },
@@ -866,7 +870,7 @@
       "sizeTo": 25,
       "spin": 14,
       "particles": 1,
-      "region": "vanillafusion-plasma-gas2",
+      "region": "exogenesis-plasma-gas2",
       "colorFrom": "FF5845FF",
       "colorTo": "FF5845FF"
       },
@@ -878,7 +882,7 @@
       "sizeTo": 20,
       "spin": 16,
       "particles": 1,
-      "region": "vanillafusion-plasma-gas3",
+      "region": "exogenesis-plasma-gas3",
       "colorFrom": "FF5845FF",
       "colorTo": "FF5845FF"
       }
@@ -922,7 +926,7 @@
     "sizeTo": 0,
     "length": 0,
     "spin": 7,
-    "region": "vanillafusion-raydouble",
+    "region": "exogenesis-raydouble",
     "layer": 108,
     "lifetime": 56,
     "colorFrom": "FF5845FF",
@@ -936,7 +940,7 @@
     "sizeTo": 0,
     "length": 0,
     "spin": -7,
-    "region": "vanillafusion-raydouble",
+    "region": "exogenesis-raydouble",
     "layer": 108,
     "lifetime": 56,
     "colorFrom": "FF5845FF",
