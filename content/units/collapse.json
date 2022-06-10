@@ -3,6 +3,7 @@
 "type": "legs",
 "research": {
 "requirements": [
+"parent": "tank",
 "ether/500"
 "silicon/1670"
 ]
