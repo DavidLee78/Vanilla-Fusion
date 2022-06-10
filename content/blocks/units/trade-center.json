@@ -9,7 +9,7 @@
 	},
 	"plans": [
 		{
-			"unit": "collapse",
+			"unit": "tank",
 			"requirements": [
 				{ "item": "ether", "amount": 50 },
               	{ "item": "thorium", "amount": 100 }
