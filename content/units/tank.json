@@ -8,7 +8,9 @@
 	"range": 160,
 	"hovering": true,
 	"research": "trade-center"
-	  {
+	
+  "weapons": [
+  {
   "name": "supernova",
   "x": 0,
   "y": 0,
