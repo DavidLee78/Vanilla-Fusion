@@ -182,38 +182,6 @@
     ],
     "abilities": [
     {
-    "type": "EnergyFieldAbility",
-    "statusDuration": 5,
-    "shootSound": "none",
-    "healEffect": "none",
-    "hitEffect": {
-    "type": "ParticleEffect",
-    "particles": 5,
-    "offset": 30,
-    "sizeFrom": 4,
-    "sizeTo": 0,
-    "length": 60,
-    "lifetime": 20,
-    "colorFrom": "FFC1BBFF",
-    "colorTo": "DE4136FF",
-    "cone": 360   
-    },
-    "damageEffect": "none",
-    "color": "FF5845FF",
-    "maxTargets": 100,
-    "healPercent": 0,
-    "damage": 2.5,
-    "range": 130,
-    "sectors": 6,
-    "blinkScl": 80,
-    "rotateSpeed": 3,
-    "hitBuildings": false,
-    "sectorRad": 0,
-    "effectRadius": 7,
-    "reload": 1,
-    "status": "vanillafusion-molten1"
-    },
-    {
      "type": "mindustry.entities.abilities.StatusFieldAbility",
       "effect": "wet",
       "parentizeEffects": true,
