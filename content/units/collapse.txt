@@ -73,10 +73,10 @@
   },
 {
     "name": "solar-cannon",
-    "y": -10,
+    "y": 0,
     "x": 23,
     "top": true,
-    "mirror": true,
+    "mirror": false,
     "alternate": true,
     "shots": 1,
     "rotate": true,
