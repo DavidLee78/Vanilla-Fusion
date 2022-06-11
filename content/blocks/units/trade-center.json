@@ -15,8 +15,7 @@
               	{ "item": "thorium", "amount": 100 }
 			],
 			"time": 1200
-		},
-		{
+		}
 		"unit": "gashadokuro",
 			"requirements": [
 				{ "item": "ether", "amount": 10 },
