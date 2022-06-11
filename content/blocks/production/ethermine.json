@@ -40,7 +40,7 @@
 		{ "item": "titanium", "amount": 125 }
 	],
 	"category": "power",
-	"research": "satoshi",
+	"research": "satoshiminer",
 	"outputItem": "ether/1"
 }
 

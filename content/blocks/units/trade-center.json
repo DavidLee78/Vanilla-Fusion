@@ -8,25 +8,28 @@
 		"power": 2.5
 	},
 	"plans": [
-		{
-			"unit": "tank",
-			"requirements": [
-				{ "item": "ether", "amount": 50 },
-              	{ "item": "thorium", "amount": 100 }
-			],
-			"time": 1200
-		}
-		"unit": "gashadokuro",
-			"requirements": [
-				{ "item": "ether", "amount": 10 },
-			],
-			"time": 2000
-		},
-	]
-	"requirements": [
-		{ "item": "lead", "amount": 500 },
-		{ "item": "thorium", "amount": 200 },
-		{ "item": "silicon", "amount": 100 }
-	],
+{
+    "unit": "tank",
+    	"requirements": [
+		{"item": "ether", "amount": 50},
+		{"item": "thorium", "amount": 100}
+       ],
+    "time": 400
+  },
+  {
+    "unit": "gashadakuro",
+    	"requirements": [
+		{"item": "ether", "amount": 20},
+		{"item": "satoshi", "amount": 20}
+	       ],
+    "time": 400
+  }
+],
+    "requirements": [
+	{"item": "silicon", "amount": 580},
+	{"item": "graphite", "amount": 180},
+	{"item": "astrolite", "amount": 180},
+	{"item": "titanium", "amount": 160}
+],
 	"category": "units"
 	"research": "command-center"
