@@ -19,8 +19,7 @@
   {
     "unit": "gashadokuro",
     	"requirements": [
-		{"item": "ether", "amount": 20},
-		{"item": "satoshi", "amount": 20}
+		{"item": "ether", "amount": 20}
 	       ],
     "time": 400
   }
@@ -28,8 +27,8 @@
     "requirements": [
 	{"item": "silicon", "amount": 580},
 	{"item": "graphite", "amount": 180},
-	{"item": "astrolite", "amount": 180},
-	{"item": "titanium", "amount": 160}
+	{"item": "ether", "amount": 180},
+	{"item": "titanium", "amount": 150}
 ],
 	"category": "units"
 	"research": "command-center"
