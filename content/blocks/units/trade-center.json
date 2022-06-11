@@ -2,7 +2,7 @@
 	"health": 500,
 	"name": "Unit Center",
 	"description":"Can be used to craft the most advanced units, operations cost Ether",
-	"size": 3,
+	"size": 7,
 	"itemCapacity": 30,
 	"consumes": {
 		"power": 2.5
