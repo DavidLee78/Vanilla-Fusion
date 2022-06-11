@@ -16,6 +16,12 @@
 			],
 			"time": 1200
 		},
+		"unit": "gashadokuro",
+			"requirements": [
+				{ "item": "ether", "amount": 10 },
+			],
+			"time": 2000
+		},
 	]
 	"requirements": [
 		{ "item": "lead", "amount": 500 },
