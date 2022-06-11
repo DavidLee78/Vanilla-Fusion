@@ -17,7 +17,7 @@
     "time": 400
   },
   {
-    "unit": "gashadakuro",
+    "unit": "gashadokuro",
     	"requirements": [
 		{"item": "ether", "amount": 20},
 		{"item": "satoshi", "amount": 20}
