@@ -33,7 +33,6 @@
   "ejectEffect": "none",
   "bullet": {
     "type": "FlakBulletType",
-	"sprite" : "vanillafusion-plasma",
 	"collidesTeam": true,
     "healPercent": 0.8,
     "status": "blasted",
