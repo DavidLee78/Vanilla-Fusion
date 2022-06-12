@@ -1,7 +1,7 @@
 {
 	"type": "Drill",
 	"name": "Quantum Mine",
-	"description: "One of the most advanced drills, the use of this technology costs Ether",
+	"description": "One of the most advanced drills, the use of this technology costs Ether",
 	"size": 4,
 	"tier": 14,
 	"rotateSpeed": 5.5,
