@@ -1,5 +1,5 @@
 {
-"name": "Thyme",
+"name": "Invader",
 "research": "aster",
 "type": "legs",
 "outlineColor": "34353EFF",
@@ -36,57 +36,6 @@
 		"slow"
 		],
 "weapons": [
-  {
-    "name": "disk-launcher",
-    "top": false,
-    "shootY": 7,
-    "shots": 1,
-    "layerOffset": -1,
-    "shootCone": 10,
-    "reload": 70,
-    "x": -15,
-    "y": 12,
-    "alternate": true,
-    "mirror": true,
-    "ejectEffect": "none",
-    "recoil": 1,
-    "shootSound": "laser",
-    "bullet": { 
-    "colors":["57D993aa", "73FFAEFF", "FFFFFFF"],
-      "type": "LaserBulletType",
-      "length": 200,
-      "width": 22,
-      "damage": 60,
-      "shootEffect": {
-      "type": "WaveEffect",
-      "lifetime": 15,
-      "sizeFrom": 0,
-      "sizeTo": 10,
-      "strokeFrom": 1,
-      "strokeTo": 0,
-      "colorFrom": "FFFFFFFF",
-      "colorTo": "73FFAEF"
-      },
-    "hitEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 8,
-    "lifetime": 32,
-    "length": 65,
-    "cone": -360,
-    "lenFrom": 7,
-    "lenTo": 3,
-    "lightColor": "73FFAEFF",
-    "colorFrom": "73FFAEFF",
-    "colorTo": "57D993FF"
-    },    
-      "lightColor": "73FFAEF",
-      "buildingDamageMultiplier": 0.50,
-      "sideAngle": 25,
-      "sideLength": 32,
-      "sideWidth": 1
-     }
-  },
 	{
     "name": "quantra-bolter",
     "top": true,
@@ -182,7 +131,7 @@
   "name": "thymus-mount",
   "x": 16,
   "y": -2,
-  "reload": 25,
+  "reload": 12.5,
   "alternate": true,
   "rotate": true,
   "rotateSpeed": 1.8,
