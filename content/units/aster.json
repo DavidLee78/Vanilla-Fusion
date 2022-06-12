@@ -1,7 +1,7 @@
 {
 "name": "Aster",
 "type": "mech",
-"research": "irises",
+"research": "ethermine",
 "armor": 5,
 "rotateSpeed": 3,
 "outlineColor": "34353EFF",
