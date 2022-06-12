@@ -24,7 +24,7 @@
     "time": 400
   }
     {
-    "unit": "thymus",
+    "unit": "invader",
     	"requirements": [
 		{"item": "ether", "amount": 10}
 	       ],
