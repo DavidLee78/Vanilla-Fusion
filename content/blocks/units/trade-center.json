@@ -17,7 +17,7 @@
     "time": 400
   },
   {
-    "unit": "gashadokuro",
+    "unit": "aster",
     	"requirements": [
 		{"item": "ether", "amount": 20}
 	       ],
