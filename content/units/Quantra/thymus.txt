@@ -195,6 +195,7 @@
   "ejectEffect": "none",
     "bullet": {
     "type": "basicBulletType",
+    "sprite": "vanillafusion-pointy-bullet",
     "damage": 200,
     "collidesTeam": true,
     "healPercent": 20,
