@@ -35,7 +35,7 @@
 		{ "item": "titanium", "amount": 10 }
 	],
 	"category": "power",
-	"research": "core",
+	"research": "battery",
 	"outputItem": "satoshi/1"
 }
 
