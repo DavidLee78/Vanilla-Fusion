@@ -24,42 +24,7 @@
     "time": 400
   }
     {
-    "unit": "guardian",
-    	"requirements": [
-		{"item": "ether", "amount": 20}
-	       ],
-    "time": 400
-  }
-    {
-    "unit": "crystal-drone-healer",
-    	"requirements": [
-		{"item": "ether", "amount": 20}
-	       ],
-    "time": 400
-  }
-    {
-    "unit": "irises",
-    	"requirements": [
-		{"item": "ether", "amount": 10}
-	       ],
-    "time": 400
-  }
-    {
-    "unit": "pteris",
-    	"requirements": [
-		{"item": "ether", "amount": 10}
-	       ],
-    "time": 400
-  }
-    {
     "unit": "thymus",
-    	"requirements": [
-		{"item": "ether", "amount": 10}
-	       ],
-    "time": 400
-  }
-    {
-    "unit": "urtica",
     	"requirements": [
 		{"item": "ether", "amount": 10}
 	       ],
@@ -69,7 +34,7 @@
     "requirements": [
 	{"item": "silicon", "amount": 580},
 	{"item": "graphite", "amount": 180},
-	{"item": "ether", "amount": 180},
+	{"item": "ether", "amount": 150},
 	{"item": "titanium", "amount": 150}
 ],
 	"category": "units"
