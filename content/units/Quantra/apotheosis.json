@@ -21,22 +21,6 @@
     "trailScl": 5.8,
     "trailLength": 150.0,
     "rotateShooting": false,
-  	"immunities": [
-    "tarred",
-    "melting",
-    "corroded",
-    "freezing",
-    "blasted",
-    "slow",
-    "burning",
-    "wet",
-    "muddy",
-    "sapped", 
-    "disarmed",
-    "shocked",
-    "electrified",
-    "spore-slowed"
-	],
 	"weapons": [
 	  {
     "type": "RepairBeamWeapon",  
