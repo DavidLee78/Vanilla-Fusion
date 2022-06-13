@@ -43,10 +43,6 @@
 	],
 	"category": "power",
 	"research": "satoshiminer",
-	outputItem: {
-	item: stage1
-	amount: 1
-	}
 outputLiquid: {
 	liquid: exotic-liquid
 	amount: 10.0
