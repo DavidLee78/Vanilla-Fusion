@@ -1,7 +1,11 @@
 {
 	"name": "Exotic Liquid",
-	"description": "",
-	"temperature": 0.45,
-	"heatCapacity": 0.6,
-	"color": "51507d"
+"temperature": -1,
+"flammability": 1,
+"viscosity": 0.3,
+"lightColor": "E2F5FBFF",
+"heatCapacity": 1.7,
+"explosiveness": 1,
+"color": "E2F5FBFF",
+"research": "cryofluid"
 }
