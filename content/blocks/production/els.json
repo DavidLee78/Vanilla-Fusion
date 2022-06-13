@@ -43,7 +43,7 @@
 	],
 	"category": "production",
 	"research": "satoshiminer",
-	"outputItem": {"liquid": "exotic-liquid", "amount": 1}, 
+	"outputLiquid": {"liquid": "exotic-liquid", "amount": 1}, 
 	
 	}
 
