@@ -41,11 +41,10 @@
 		{ "item": "thorium", "amount": 250 },
 		{ "item": "titanium", "amount": 125 }
 	],
-	"category": "power",
+	"category": "production",
 	"research": "satoshiminer",
-outputLiquid: {
-	liquid: exotic-liquid
-	amount: 10.0
+	"outputItem": {"liquid": "exotic-liquid", "amount": 1}, 
+	
 	}
 }
 
