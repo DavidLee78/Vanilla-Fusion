@@ -1,16 +1,18 @@
-{
-type": "GenericSmelter", 
+
+
+{	
+    "type": "GenericSmelter", 
 	"drawer": {
 	"type": "DrawSmelter",
 	"flameColor": "73FFAEFF"
 	},
-	"name": "EXL Smelter",
-	"description": "Produces one of the most strange substances ever created using Satoshis and Thorium",
+	"name": "EXL",
+	"description": "Uses power and Satoshi to create Ether",
 	"size": 1,
 	 "researchCostMultiplier": 0.1,
 	"hasPower": true,
 	"hasItems": true,
-	"itemCapacity": 750,	
+	"itemCapacity": 250,	
 	"craftEffect": {
     "type": "ParticleEffect",
     "particles": 6,
@@ -24,13 +26,13 @@ type": "GenericSmelter",
     "colorTo": "73FFAEFF",
     "colorFrom": "73FFAEFF"
     },
-	"craftTime": 250,
+	"craftTime": 500,
 	"updateEffect": "none",
 	"consumes": {
 		"power": 2,
 		 "items": {
 		 "items": [
-				{ "item": "satoshi", "amount": 100}, 
+				{ "item": "satoshi", "amount": 50}, 
 			]
 		}
 		}
@@ -39,5 +41,52 @@ type": "GenericSmelter",
 		{ "item": "thorium", "amount": 250 },
 		{ "item": "titanium", "amount": 125 }
 	],
-"outputLiquid": {"liquid": "exotic-liquid", "amount": 1.1},
+	"category": "power",
+	"research": "satoshiminer",
+	"outputItem: {
+	item: stage1
+	amount: 1
+	}
+outputLiquid: {
+	liquid: exotic-liquid
+	amount: 10.0
+	}
 }
+
+
+
+
+type: GenericSmelter
+name: "Oil refiner stage 1"
+description: Refine oil into Heavy fuel oil and leave left over to be process further in stage 2
+liquidCapacity: 70
+outputItem: {
+	item: stage1
+	amount: 1
+	}
+outputLiquid: {
+	liquid: HFO
+	amount: 10.0
+	}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 50
+updateEffect: smeltsmoke
+consumes: {
+	power: 1.6
+	liquid: {
+			liquid: oil
+			amount: 1.2
+		}
+	}
+requirements: [
+	lead/10
+	graphite/8
+	silicon/12
+	copper/10
+	]
+category: crafting
+research: spore-press
+idleSound: respawning
+idleSoundVolume: 0.5
