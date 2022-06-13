@@ -1,23 +1,43 @@
 {
-	"name": "Exotic Liquid Smelter",
+type": "GenericSmelter", 
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "73FFAEFF"
+	},
+	"name": "EXL Smelter",
 	"description": "Produces one of the most strange substances ever created using Satoshis and Thorium",
-	"outputLiquid": {"liquid": "exotic-liquid", "amount": 1.3},
-	"size": 2,
+	"size": 1,
+	 "researchCostMultiplier": 0.1,
 	"hasPower": true,
 	"hasItems": true,
-	"craftTime": 110,
+	"itemCapacity": 750,	
+	"craftEffect": {
+    "type": "ParticleEffect",
+    "particles": 6,
+    "length": 20,
+    "baseLength": -20,
+    "offset": 3,
+    "cone": 360,
+    "lifetime": 28,
+    "sizeFrom": 0,
+    "sizeTo": 2,
+    "colorTo": "73FFAEFF",
+    "colorFrom": "73FFAEFF"
+    },
+	"craftTime": 250,
+	"updateEffect": "none",
 	"consumes": {
-		"power": 0.65,
-		"items": {
-			"items": [
-				{ "item": "satoshi", "amount": 500 },
+		"power": 2,
+		 "items": {
+		 "items": [
+				{ "item": "satoshi", "amount": 100}, 
 			]
-
+		}
+		}
 	"requirements": [
-		{ "item": "ether", "amount": 25 },
-		{ "item": "thorium", "amount": 50 },
-		{ "item": "silicon", "amount": 50 },
+		{ "item": "satoshi", "amount": 500 },
+		{ "item": "thorium", "amount": 250 },
+		{ "item": "titanium", "amount": 125 }
 	],
-	"category": "crafting",
-	"research": "kiln"
+"outputLiquid": {"liquid": "exotic-liquid", "amount": 1.1},
 }
