@@ -1,50 +1,28 @@
-
-
-{	
-    "type": "GenericSmelter", 
-	"drawer": {
-	"type": "DrawSmelter",
-	"flameColor": "73FFAEFF"
-	},
-	"name": "EXL",
-	"description": "Uses power and Satoshi to create Ether",
+{
+	"localizedName": "ELS",
+	"description": "Produces Exotic Liquid",
+	"outputLiquid": {"liquid": "exotic-liquid", "amount": 1.3},
 	"size": 1,
-	 "researchCostMultiplier": 0.1,
 	"hasPower": true,
 	"hasItems": true,
-	"itemCapacity": 250,	
-	"craftEffect": {
-    "type": "ParticleEffect",
-    "particles": 6,
-    "length": 20,
-    "baseLength": -20,
-    "offset": 3,
-    "cone": 360,
-    "lifetime": 28,
-    "sizeFrom": 0,
-    "sizeTo": 2,
-    "colorTo": "73FFAEFF",
-    "colorFrom": "73FFAEFF"
-    },
 	"craftTime": 500,
-	"updateEffect": "none",
 	"consumes": {
-		"power": 2,
-		 "items": {
-		 "items": [
-				{ "item": "satoshi", "amount": 50}, 
+		"power": 0.65,
+		"items": {
+			"items": [
+				{ "item": "satoshi", "amount": 50 },
 			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.25
 		}
-		}
+	},
 	"requirements": [
-		{ "item": "satoshi", "amount": 500 },
-		{ "item": "thorium", "amount": 250 },
-		{ "item": "titanium", "amount": 125 }
+		{ "item": "ether", "amount": 25 },
+		{ "item": "graphite", "amount": 45 },
+		{ "item": "silicon", "amount": 30 },
 	],
-	"category": "production",
-	"research": "satoshiminer",
-	"outputLiquid": {"liquid": "exotic-liquid", "amount": 1}, 
-	
-	}
-
-
+	"category": "crafting",
+	"research": "kiln"
+}
