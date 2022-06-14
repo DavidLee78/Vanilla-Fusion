@@ -12,7 +12,7 @@
 	"hasItems": true,
 	"itemCapacity": 250,	
 	"liquidCapacity": 50,
-    "liquidBoostIntensity": 5,
+    "liquidBoostIntensity": 10,
  	"hasLiquids": true,
 	"craftEffect": {
     "type": "ParticleEffect",
