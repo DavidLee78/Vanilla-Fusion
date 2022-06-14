@@ -6,7 +6,7 @@
 	"tier": 14,
 	"rotateSpeed": 5.5,
 	"drillTime": 40,
-	"liquidBoostIntensity": 1.5,
+	"liquidBoostIntensity": 3,
 	"drawRim": true,
  "itemCapacity": 100,
 	"warmupSpeed": 0.0878,
@@ -32,7 +32,7 @@
 	"consumes": {
 		"power": 45,
 		"liquid": {
-			"liquid": "water",
+			"liquid": "exotic-liquid",
 			"amount": 0.31,
 			"booster": true,
 			"optional": true

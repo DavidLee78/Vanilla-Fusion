@@ -7,10 +7,19 @@
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
-	"craftTime": 250,
+	"craftTime": 1000,		
 	"craftEffect": "smeltsmoke",
+	"liquidCapacity": 50,
+    "liquidBoostIntensity": 5,
+ 	"hasLiquids": true,
 	"consumes": {
-		"power": 5,
+		    "power": 5,
+			"liquid": {
+			"liquid": "exotic-liquid",	
+			"amount": 0.31,
+			"booster": true,
+			"optional": true
+		}
 		"items": {
 			"items": [
 				{ "item": "ether", "amount": 1},

@@ -11,6 +11,9 @@
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 250,	
+	"liquidCapacity": 50,
+    "liquidBoostIntensity": 5,
+ 	"hasLiquids": true,
 	"craftEffect": {
     "type": "ParticleEffect",
     "particles": 6,
@@ -24,10 +27,16 @@
     "colorTo": "73FFAEFF",
     "colorFrom": "73FFAEFF"
     },
-	"craftTime": 500,
+	"craftTime": 1000,
 	"updateEffect": "none",
 	"consumes": {
-		"power": 2,
+		    "power": 5,
+			"liquid": {
+			"liquid": "exotic-liquid",	
+			"amount": 0.50,
+			"booster": true,
+			"optional": true
+		}
 		 "items": {
 		 "items": [
 				{ "item": "satoshi", "amount": 50}, 

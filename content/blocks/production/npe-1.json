@@ -10,7 +10,7 @@
 	"craftTime": 1000,
 	"craftEffect": "smeltsmoke",
 	"liquidCapacity": 50,
-    "liquidBoostIntensity": 4,
+    "liquidBoostIntensity": 5,
  	"hasLiquids": true,
 	"consumes": {
 		    "power": 5,
