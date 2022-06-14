@@ -2,7 +2,7 @@
 	"type": "GenericCrafter",
 	"name": "Exotic Liquid Melter",
 	"description": "Changes the structure of Ether and created Exotic Liquid",
-	"outputLiquid": {"liquid": "exotic-liquid", "amount": 11.66666},
+	"outputLiquid": {"liquid": "exotic-liquid", "amount": 22},
 	"size": 1,
 	"hasPower": true,
 	"hasLiquids": true,
