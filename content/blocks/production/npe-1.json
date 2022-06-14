@@ -16,7 +16,7 @@
 		    "power": 5,
 			"liquid": {
 			"liquid": "exotic-liquid",	
-			"amount": 0.31,
+			"amount": 0.125,
 			"booster": true,
 			"optional": true
 		}
