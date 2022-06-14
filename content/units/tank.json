@@ -11,7 +11,7 @@
 	
   "weapons": [
   {
-    "name": "solar-cannon",
+    "name": "tank-cannon",
     "y": 10,
     "x": 0,
     "top": true,
