@@ -1,13 +1,13 @@
 {
 	"type": "GenericCrafter",
-	"name": "N.P.E-1 'Thorium'",
-	"description": "Nuclear Properties Editor or N.P.E is used to change the Electron Structure of Copper to transmutate it into various Resources, the use of this technology costs Bitcoin",
+	"name": "N.P.E-1 'Silicon'",
+	"description": "Nuclear Properties Editor or N.P.E is used to change the Electron Structure of Copper to transmutate it into various Resources, the use of this technology costs Ether",
 	"itemCapacity": 100,
-	"outputItem": {"item": "blast-compound", "amount": 10},
+	"outputItem": {"item": "silicon", "amount": 25},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
-	"craftTime": 750,		
+	"craftTime": 500,		
 	"craftEffect": "smeltsmoke",
 	"consumes": {
 		"items": {
@@ -17,10 +17,10 @@
 		}
 	},
 	"requirements": [
-		{ "item": "ether", "amount": 100 },
+		{ "item": "ether", "amount": 125 },
 		{ "item": "satoshi", "amount": 1000 },
-		{ "item": "blast-compound", "amount": 250 },
-	
+		{ "item": "silicon", "amount": 500 },
+	],
 	"category": "crafting",
 	"research": "melter",
 	"idleSound": "respawning",

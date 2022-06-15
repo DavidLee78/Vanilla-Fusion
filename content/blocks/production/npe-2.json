@@ -1,9 +1,9 @@
 {
 	"type": "GenericCrafter",
-	"name": "N.P.E-2 'Thorium'",
+	"name": "N.P.E-2 'Blast Compound'",
 	"description": "Nuclear Properties Editor or N.P.E is used to change the Electron Structure of Copper to transmutate it into various Resources, the use of this technology costs Ether",
 	"itemCapacity": 100,
-	"outputItem": {"item": "thorium", "amount": 25},
+	"outputItem": {"item": "blast-compound", "amount": 5},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
@@ -19,10 +19,10 @@
 	"requirements": [
 		{ "item": "ether", "amount": 125 },
 		{ "item": "satoshi", "amount": 1000 },
-		{ "item": "thorium", "amount": 500 },
+		{ "item": "blast-compound", "amount": 500 },
 	],
 	"category": "crafting",
-	"research": "melter",
+	"research": "npe-1",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }
