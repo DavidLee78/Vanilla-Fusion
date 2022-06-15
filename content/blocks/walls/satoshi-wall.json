@@ -6,7 +6,7 @@
     "lightningColor": "F3E979FF",
     "lightningDamage": 48,
     "lightningLength":28,
-    "health": 2520,
+    "health": 500,
     "size": 1,
     "requirements": [
         {"item": "satoshi", "amount": 250},
