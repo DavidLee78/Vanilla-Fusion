@@ -11,23 +11,7 @@
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 250,	
-	"liquidCapacity": 50,
-    "liquidBoostIntensity": 100,
- 	"hasLiquids": true,
-	"craftEffect": {
-    "type": "ParticleEffect",
-    "particles": 6,
-    "length": 20,
-    "baseLength": -20,
-    "offset": 3,
-    "cone": 360,
-    "lifetime": 28,
-    "sizeFrom": 0,
-    "sizeTo": 2,
-    "colorTo": "73FFAEFF",
-    "colorFrom": "73FFAEFF"
-    },
-	"craftTime": 1000,
+	"craftTime": 500,
 	"updateEffect": {
 	"type": "ParticleEffect",
     "line": true,
@@ -40,20 +24,6 @@
     "lenTo": 0,
     "colorFrom": "73FFAEFF",
     "colorTo": "73FFAEFF"
-	},
-	"updateEffectChance": 0.2,
-	"hasLiquids": true,
-    "heatColor": "73FFAEFF",
-	"liquidCapacity": 100,
-	"expanded": true,
-	"consumes": {
-		"power": 45,
-		"liquid": {
-			"liquid": "exotic-liquid",
-			"amount": 0.15,
-			"booster": true,
-			"optional": true
-		}
 	},
 	"consumes": {
 		    "power": 5,

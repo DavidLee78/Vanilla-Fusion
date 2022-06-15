@@ -7,7 +7,7 @@
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
-	"craftTime": 1000,		
+	"craftTime": 500,		
 	"craftEffect": "smeltsmoke",
 	"liquidCapacity": 50,
     "liquidBoostIntensity": 5,
