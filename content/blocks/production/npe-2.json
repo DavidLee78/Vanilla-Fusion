@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
 	"name": "N.P.E-2 'Thorium'",
-	"description": "Nuclear Properties Editor or N.P.E is used to change the Electron Structure of Copper to transmutate it into various Resources, the use of this technology costs Bitcoin",
+	"description": "Nuclear Properties Editor or N.P.E is used to change the Electron Structure of Copper to transmutate it into various Resources, the use of this technology costs Ether",
 	"itemCapacity": 100,
 	"outputItem": {"item": "thorium", "amount": 25},
 	"size": 2,
@@ -17,11 +17,9 @@
 		}
 	},
 	"requirements": [
-		{ "item": "ether", "amount": 20 },
-		{ "item": "thorium", "amount": 250 },
-		{ "item": "surge-alloy", "amount": 200 },
-		{ "item": "graphite", "amount": 100 },
-		{ "item": "silicon", "amount": 50 }
+		{ "item": "ether", "amount": 125 },
+		{ "item": "satoshi", "amount": 1000 },
+		{ "item": "thorium", "amount": 500 },
 	],
 	"category": "crafting",
 	"research": "melter",
