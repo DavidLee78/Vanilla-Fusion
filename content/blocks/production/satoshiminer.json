@@ -27,7 +27,7 @@
 	"craftTime": 50,
 	"updateEffect": "none",
 	"consumes": {
-		"power": 2,
+		"power": 5,
 		}
 	"requirements": [
 		{ "item": "copper", "amount": 30 },
