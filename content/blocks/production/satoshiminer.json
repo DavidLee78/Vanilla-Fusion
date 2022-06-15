@@ -34,7 +34,7 @@
 		{ "item": "lead", "amount": 250 },
 	],
 	"category": "power",
-	"research": "combustion-generator",
+	"research": "power-node",
 	"outputItem": "satoshi/1"
 }
 
