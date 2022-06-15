@@ -35,11 +35,11 @@
 		}
 	"requirements": [
 		{ "item": "satoshi", "amount": 500 },
-		{ "item": "thorium", "amount": 250 },
-		{ "item": "titanium", "amount": 125 }
+		{ "item": "graphite", "amount": 250 },
+		{ "item": "silicon", "amount": 125 }
 	],
-	"category": "power",
-	"research": "satoshiminer",
+	"category": "production",
+	"research": "silicon-smelter",
 	"outputItem": "ether/1"
 }
 

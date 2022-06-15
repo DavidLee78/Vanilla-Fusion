@@ -34,6 +34,6 @@
 		{ "item": "thorium", "amount": 500 }
 	],
 	"category": "power",
-	"research": "ethermine",
+	"research": "satoshiminer",
 	"outputItem": "satoshi/5"
 }

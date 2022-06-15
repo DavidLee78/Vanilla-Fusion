@@ -10,6 +10,7 @@
 	"craftTime": 500,		
 	"craftEffect": "smeltsmoke",
 	"consumes": {
+	    "power": 5,
 		"items": {
 			"items": [
 				{ "item": "ether", "amount": 1},

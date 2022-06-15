@@ -4,8 +4,8 @@
     "health": 1500,
     "size": 2,
     "requirements": [
-        {"item": "satoshi", "amount": 500},
-        {"item": "copper", "amount": 250}
+        {"item": "satoshi", "amount": 100},
+        {"item": "copper", "amount": 75}
     ],
     "category": "defense",
     "research": "copper-wall-large"

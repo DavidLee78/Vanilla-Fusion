@@ -10,6 +10,7 @@
 	"craftTime": 500,		
 	"craftEffect": "smeltsmoke",
 	"consumes": {
+	    "power": 5,
 		"items": {
 			"items": [
 				{ "item": "ether", "amount": 1},
@@ -22,7 +23,7 @@
 		{ "item": "silicon", "amount": 500 },
 	],
 	"category": "crafting",
-	"research": "melter",
+	"research": "silicon-smelter",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }
