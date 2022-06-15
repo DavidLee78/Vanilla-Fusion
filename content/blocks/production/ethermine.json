@@ -39,7 +39,7 @@
 		{ "item": "silicon", "amount": 125 }
 	],
 	"category": "power",
-	"research": "satoshimine",
+	"research": "satoshiminer",
 	"outputItem": "ether/1"
 }
 
