@@ -16,7 +16,7 @@
     "particleStroke": 1.1,
     "particleLife": 80
 	},
-	"size": 5,
+	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
