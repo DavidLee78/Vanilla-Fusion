@@ -30,10 +30,10 @@
 		}
 	"requirements": [
 		{ "item": "satoshi", "amount": 1000 },
-		{ "item": "ether", "amount": 75 },
-		{ "item": "titanium", "amount": 250 }
+		{ "item": "ether", "amount": 100 },
+		{ "item": "thorium", "amount": 500 }
 	],
 	"category": "power",
-	"research": "satoshiminer",
+	"research": "ethermine",
 	"outputItem": "satoshi/5"
 }
