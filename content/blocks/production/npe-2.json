@@ -22,7 +22,7 @@
 		{ "item": "satoshi", "amount": 1000 },
 		{ "item": "blast-compound", "amount": 500 },
 	],
-	"category": "crafting",
+	"category": "production",
 	"research": "npe-1",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5

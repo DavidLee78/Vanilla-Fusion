@@ -53,7 +53,7 @@
         "satoshi/1000",
         "surge-alloy/300",
 	],
-	"category": "crafting",
+	"category": "production",
 	"research": "npe-2",
 	"outputItem": "surge-alloy/10"
 }

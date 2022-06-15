@@ -38,8 +38,8 @@
 		{ "item": "graphite", "amount": 250 },
 		{ "item": "silicon", "amount": 125 }
 	],
-	"category": "production",
-	"research": "silicon-smelter",
+	"category": "power",
+	"research": "satoshimine",
 	"outputItem": "ether/1"
 }
 

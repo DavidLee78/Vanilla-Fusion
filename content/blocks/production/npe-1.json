@@ -22,7 +22,7 @@
 		{ "item": "satoshi", "amount": 1000 },
 		{ "item": "silicon", "amount": 500 },
 	],
-	"category": "crafting",
+	"category": "production",
 	"research": "silicon-smelter",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
