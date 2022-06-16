@@ -1,7 +1,7 @@
 {    
     "type": "Wall",
     "name": "Satoshi Wall Large"
-    "buildCostMultiplier": 0.5,
+    "buildCostMultiplier": 1,
     "health": 3000,
     "size": 2,
     "requirements": [
