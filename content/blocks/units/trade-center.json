@@ -14,21 +14,21 @@
 		{"item": "ether", "amount": 50},
 		{"item": "thorium", "amount": 100}
        ],
-    "time": 400
+    "time": 1000
   },
   {
-    "unit": "aster",
+    "unit": "novice",
     	"requirements": [
 		{"item": "ether", "amount": 20}
 	       ],
-    "time": 400
+    "time": 2500
   }
     {
     "unit": "invader",
     	"requirements": [
 		{"item": "ether", "amount": 10}
 	       ],
-    "time": 400
+    "time": 5000
   }
 ],
     "requirements": [
