@@ -1,9 +1,9 @@
 {
 	"type": "GenericCrafter",
-	"name": "N.P.E-2 'Blast Compound'",
+	"name": "N.P.E-2 'Pyratite'",
 	"description": "Nuclear Properties Editor or N.P.E is used to change the Electron Structure of Copper to transmutate it into various Resources, the use of this technology costs Ether",
 	"itemCapacity": 100,
-	"outputItem": {"item": "blast-compound", "amount": 5},
+	"outputItem": {"item": "pyratite", "amount": 10},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
@@ -13,14 +13,14 @@
 	    "power": 5,
 		"items": {
 			"items": [
-				{ "item": "ether", "amount": 1},
+				{ "item": "ether", "amount": 2},
 			]
 		}
 	},
 	"requirements": [
-		{ "item": "ether", "amount": 125 },
+		{ "item": "ether", "amount": 75 },
 		{ "item": "satoshi", "amount": 1000 },
-		{ "item": "blast-compound", "amount": 500 },
+		{ "item": "pyratite", "amount": 500 },
 	],
 	"category": "production",
 	"research": "npe-1",

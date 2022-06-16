@@ -29,7 +29,7 @@
 		    "power": 5,
 		 "items": {
 		 "items": [
-				{ "item": "satoshi", "amount": 50}, 
+				{ "item": "satoshi", "amount": 25}, 
 			]
 		}
 		}

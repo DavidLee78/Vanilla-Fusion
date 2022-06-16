@@ -3,7 +3,7 @@
 	"name": "N.P.E-1 'Silicon'",
 	"description": "Nuclear Properties Editor or N.P.E is used to change the Electron Structure of Copper to transmutate it into various Resources, the use of this technology costs Ether",
 	"itemCapacity": 100,
-	"outputItem": {"item": "silicon", "amount": 25},
+	"outputItem": {"item": "silicon", "amount": 15},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
@@ -18,7 +18,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "ether", "amount": 125 },
+		{ "item": "ether", "amount": 50 },
 		{ "item": "satoshi", "amount": 1000 },
 		{ "item": "silicon", "amount": 500 },
 	],

@@ -40,7 +40,7 @@
 		"power": 5,
 		"items": {
 			"items": [
-                "ether/1",
+                "ether/5",
 			]
 	},
 		"liquid": {
@@ -51,9 +51,9 @@
 	"requirements": [
         "ether/125 ",
         "satoshi/1000",
-        "surge-alloy/300",
+        "surge-alloy/500",
 	],
 	"category": "production",
-	"research": "npe-2",
-	"outputItem": "surge-alloy/10"
+	"research": "npe-4",
+	"outputItem": "surge-alloy/25"
 }
