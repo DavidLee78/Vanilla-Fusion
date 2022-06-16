@@ -1,6 +1,7 @@
 {
 "name": "Invader",
-"research": "aster",
+"description": "The origin of this Artificial Creature is unknown, its constructors vanished from this universe thousands of years ago.
+"research": "novice",
 "type": "legs",
 "outlineColor": "34353EFF",
 "armor": 10,
