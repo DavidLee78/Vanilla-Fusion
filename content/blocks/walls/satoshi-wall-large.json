@@ -8,5 +8,5 @@
         {"item": "copper", "amount": 75}
     ],
     "category": "defense",
-    "research": "copper-wall-large"
+    "research": "satoshi-wall"
 }
