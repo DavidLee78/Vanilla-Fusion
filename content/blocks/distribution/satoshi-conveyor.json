@@ -1,6 +1,6 @@
 {
-"type": "StackConveyor",
-"name": "Advanced Conveyour"
+"type": "Conveyor",
+"name": "Satoshi Conveyour"
 "loadEffect": {
 "type": "ParticleEffect",
 "line": true,
