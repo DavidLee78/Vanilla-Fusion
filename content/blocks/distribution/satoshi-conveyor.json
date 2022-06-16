@@ -29,9 +29,8 @@
 "speed": 0.10,
 "itemCapacity": 100,
     "requirements": [
-        "ether/5",
-        "satoshi/50",
-        "silicon/50"
+        "satoshi/10",
+        "copper/30"
     ],
 "research": "conveyor",
 "category": "distribution"

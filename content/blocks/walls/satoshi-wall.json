@@ -1,7 +1,6 @@
 {    
     "type": "Wall",
     "name": "Satoshi Wall
-    "buildCostMultiplier": 10,
     "lightningSound": "spark",
     "lightningChance": 0.60,
     "lightningColor": "F3E979FF",
