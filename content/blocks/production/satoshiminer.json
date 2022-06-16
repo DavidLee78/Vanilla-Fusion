@@ -13,7 +13,7 @@
 	"itemCapacity": 10,	
 	"craftEffect": {
     "type": "ParticleEffect",
-    "particles": 1,
+    "particles": 3,
     "length": 20,
     "baseLength": -20,
     "offset": 3,
