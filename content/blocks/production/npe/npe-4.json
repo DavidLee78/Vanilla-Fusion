@@ -21,7 +21,7 @@
 	"hasLiquids": true,
 	"hasItems": true,
 	"itemCapacity": 80,
-	"craftTime": 500,
+	"craftTime": 750,
 	"craftEffect": {
     "type": "ParticleEffect",
     "particles": 15,
@@ -40,7 +40,7 @@
 		"power": 5,
 		"items": {
 			"items": [
-                "ether/4 ",
+                "ether/2 ",
 			]
 	},
 	},
