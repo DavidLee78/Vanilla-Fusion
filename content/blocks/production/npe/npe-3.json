@@ -21,10 +21,10 @@
 	"requirements": [
 		{ "item": "ether", "amount": 100 },
 		{ "item": "satoshi", "amount": 1000 },
-		{ "item": "pyratite", "amount": 500 },
+		{ "item": "titanium", "amount": 500 },
 	],
 	"category": "production",
-	"research": "npe-1",
+	"research": "npe-2",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }
