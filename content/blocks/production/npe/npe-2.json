@@ -3,6 +3,7 @@
 	"name": "N.P.E-2 'Pyratite'",
 	"description": "Nuclear Properties Editor or N.P.E is used to change the Electron Structure of Copper to transmutate it into various Resources, the use of this technology costs Ether",
 	"itemCapacity": 100,
+	"researchCostMultiplier": 0.125,
 	"outputItem": {"item": "pyratite", "amount": 10},
 	"size": 2,
 	"hasPower": true,
