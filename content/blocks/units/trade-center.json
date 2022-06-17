@@ -1,7 +1,7 @@
 	"type": "UnitFactory",
 	"health": 500,
 	"name": "Unit Center",
-	"description":"Can be used to craft the most advanced units, operations cost Ether",
+	"description":"Consumes ether to build  the most advanced units ",
 	"size": 7,
 	"itemCapacity": 30,
 	"consumes": {
@@ -11,22 +11,21 @@
 {
     "unit": "tank",
     	"requirements": [
-		{"item": "ether", "amount": 50},
-		{"item": "thorium", "amount": 100}
+		{"item": "ether", "amount": 25},
        ],
     "time": 1000
   },
   {
     "unit": "novice",
     	"requirements": [
-		{"item": "ether", "amount": 20}
+		{"item": "ether", "amount": 75}
 	       ],
     "time": 2500
   }
     {
     "unit": "invader",
     	"requirements": [
-		{"item": "ether", "amount": 10}
+		{"item": "ether", "amount": 150}
 	       ],
     "time": 5000
   }
@@ -38,4 +37,4 @@
 	{"item": "titanium", "amount": 150}
 ],
 	"category": "units"
-	"research": "command-center"
+	"research": "ethermine"

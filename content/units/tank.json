@@ -8,6 +8,7 @@
 	"range": 160,
 	"hovering": true,
 	"research": "trade-center"
+	  "commandLimit": 3,
 	
   "weapons": [
   {
