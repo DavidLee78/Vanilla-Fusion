@@ -14,7 +14,7 @@
 	    "power": 5,
 		"items": {
 			"items": [
-				{ "item": "ether", "amount": 1},
+				{ "item": "satoshi", "amount": 15},
 			]
 		}
 	},
