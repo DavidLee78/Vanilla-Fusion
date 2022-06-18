@@ -1,11 +1,11 @@
 {
-	"type": "ItemTurret",
-	"size": 8,
-	"health": 8660,
-	"range": 800,
+	"type": "PowerTurret",
+	"size": 7,
+	"health": 5660,
+	"range": 500,
 	"reloadTime" : 380,
 	"shots" : 1,
-	"targetAir" : true, 
+	"targetAir" : true,
 	"targetGround" : true,
 	"shootCone" : 1,
 	"recoilAmount" : 4,
@@ -13,7 +13,7 @@
 	"rotateSpeed": 2,
 	"shootShake" : 2,
 
-	"shootSound": "release",
+	"shootSound": "plasmaboom",
 	"chargeSound": "lasercharge",
 	"chargeTime" : 80,
 	"chargeEffects" : 1,
@@ -29,50 +29,32 @@
     "cone": 360
 },
 	"chargeEffect": {
-	    "type": "MultiEffect",
-	    "lifetime": 80,
-	    "effects": [
-	   {     
-        "type": "WaveEffect",
-        "lifetime": 80,
-        "sizeFrom": 0,
-        "sizeTo": 40,
-        "strokeFrom": 0,
-        "strokeTo": 6,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
-	   },
-	   {     
-    "type": "ParticleEffect",
-    "particles": 10,
-    "sizeFrom": 5,
-    "sizeTo": 0,
-    "length": 45,
-    "baseLength": -45,
+    "type": "WaveEffect",
     "lifetime": 80,
+    "sizeFrom": 40,
+    "sizeTo": 0,
+    "strokeFrom": 0,
+    "strokeTo": 6,
     "colorFrom": "73FFAEFF",
-    "colorTo": "73FFAEFF",
-    "cone": 360
-	   }
-	   ]
+    "colorTo": "73FFAEFF"
 	},
-
-		"ammoTypes": {
-    "ether": {
+    "powerUse" : 40,
+	"hasPower" : true,
+	"shootType" : {
 		"type" : "basicBulletType",
 		"sprite" : "vanillafusion-plasma",
 		"hitSound": "plasmaboom",
-		"status" : "melted",
+		"status" : "corroded",
 		"statusDuration": 300,
-		"damage": 8700,	
+		"damage": 3700,	
 		"knockback": 4,
-		"splashDamage": 500,
-		"splashDamageRadius": 100,	
-	    "hitShake": 10,
-		"height": 40,
-		"width": 40,			
+		"splashDamage": 850,
+		"splashDamageRadius": 70,	
+	    "hitShake": 6,
+		"height": 30,
+		"width": 30,			
 		"speed": 5,
-		"lifetime" : 200,
+		"lifetime" : 100,
 		"homingPower": 0.00769,
 		"homingRange": 128,
 		"shrinkX": 0,
@@ -86,6 +68,7 @@
        "particles": 35,
        "lifetime": 30,
        "offset": 60,
+       "interp": "circleOut",
        "length": 115,
        "cone": -360,
        "strokeFrom": 0,
@@ -113,6 +96,7 @@
         "particles": 45,
         "sizeFrom": 7,
         "sizeTo": 0.30,
+        "interp": "circleOut",
         "offset": 60,
         "length": 100,
         "lifetime": 200,
@@ -122,23 +106,13 @@
     },
     {
         "type": "WaveEffect",
-        "lifetime": 60,
-        "sizeFrom": 100,
-        "sizeTo": 100,
-        "strokeFrom": 8,
-        "strokeTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEAA"
-    },
-    {
-        "type": "WaveEffect",
         "lifetime": 50,
         "sizeFrom": 0,
         "sizeTo": 100,
         "strokeFrom": 8,
         "strokeTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
+       "colorFrom": "73FFAEFF",
+       "colorTo": "73FFAEFF"
           }
         ]
       },
@@ -151,6 +125,7 @@
        "particles": 35,
        "lifetime": 30,
        "offset": 60,
+       "interp": "circleOut",
        "length": 115,
        "cone": -360,
        "strokeFrom": 0,
@@ -178,6 +153,7 @@
         "particles": 45,
         "sizeFrom": 7,
         "sizeTo": 0.30,
+        "interp": "circleOut",
         "offset": 60,
         "length": 100,
         "lifetime": 200,
@@ -187,23 +163,13 @@
     },
     {
         "type": "WaveEffect",
-        "lifetime": 60,
-        "sizeFrom": 100,
-        "sizeTo": 100,
-        "strokeFrom": 8,
-        "strokeTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEAA"
-    },
-    {
-        "type": "WaveEffect",
         "lifetime": 50,
         "sizeFrom": 0,
         "sizeTo": 100,
         "strokeFrom": 8,
         "strokeTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
+       "colorFrom": "73FFAEFF",
+       "colorTo": "73FFAEFF"
           }
         ]
         },
@@ -211,68 +177,47 @@
         "type": "WaveEffect",
         "lifetime": 20,
         "sizeFrom": 0,
-        "sizeTo": 40,
+        "sizeTo": 50,
         "strokeFrom": 0,
         "strokeTo": 7,
         "colorFrom": "73FFAEFF",
         "colorTo": "73FFAEFF"
 		},
 		"trailEffect": {
-	    "type": "MultiEffect",
-	    "lifetime": 80,
-	    "effects": [
-	   {     
         "type": "ParticleEffect",
-        "offset": 7,
-        "particles": 6,
-        "sizeFrom": 7,
-        "sizeTo": 0.25,
-        "length": 15,
-        "baseLength": 15,
-        "lifetime": 25,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEAA",
-        "cone": 360
-        },
-		{
-        "type": "ParticleEffect",
-        "region": "vanillafusion-triangle",
-        "offset": 7,
-        "particles": 10,
-        "sizeFrom": 6,
+        "particles": 30,
+        "length": 7,
+        "baseLength": 7,
+        "lifetime": 35,
         "interp": "circleOut",
-        "sizeTo": 0,
-        "length": 15,
-        "baseLength": 15,
-        "lifetime": 15,
+        "cone": 360,
+        "offset": 5,
         "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF",
-        "cone": 360
-	   }
-	   ]
+        "colorTo": "57D993AA",
+        "sizeFrom": 5,
+        "sizeTo": 0
 		},
 		"pierce": false,
 		"absorbable": false,
 		"trailChance": 2,
 		"smokeEffect": "none",
-		"frontColor": "FFFFFFFF",
+		"frontColor": "FFFFFFF",
 		"backColor": "73FFAEFF",
-		"fragBullets": 12,
-		"fragCone": 40,
+		"fragBullets": 7,
+		"fragCone": 380,
 		"fragBullet": {
 		"type": "basicBulletType",
-		"sprite" : "vanillafusion-electric-pulse",
+		"sprite" : "vanillafusion-plasma",
 		"status" : "corroded",
 		"statusDuration": 300,
-		"height" : 25,
-		"width" : 25,
+		"height" : 15,
+		"width" : 15,
 		"shrinkX": 0,
 		"shrinkY": 0,
 		"lifetime": 80,
 		"hitSize": 12,
 		"speed": 3.5,
 		"damage" : 500,
-		"pierce": true,
         "hitEffect": {
         "type": "ParticleEffect",
         "line": true,
@@ -297,18 +242,19 @@
         "colorFrom": "73FFAEFF",
         "colorTo": "73FFAEFF"
         },
-		    "frontColor": "FFFFFFFF",
+		    "frontColor": "FFFFFFF",
 		    "backColor": "73FFAEFF"
 		}
 	},
 
 	"requirements": [
-        "satoshi/2500",
-        "ether/750",
-        "plastanium/750",
-        "silicon/750",
-        "surge-alloy/500",
-        "thorium/750"
+        "satoshi/1000",
+        "ether/500",
+        "plastanium/600",
+        "silicon/800",
+        "surge-alloy/400",
+        "thorium/500"
 	],
 	"category": "turret",
 	"research": "pyro"
+}
