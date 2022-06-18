@@ -55,7 +55,7 @@
         },
         "ether": {
         "type": "FlakBulletType",
-        "explodeRange": 90,
+        "explodeRange": 500,
         "speed": 4,
         "damage": 200,
         "knockback": 1.8,
@@ -64,12 +64,11 @@
         "backColor": "6e7080",
         "trailColor": "bc5452",
         "trailParam": 5,
-        "trailLength": 16,
+        "trailLength": 8,
         "trailWidth": 3,
         "height": 16,
         "width": 12,
         "hitEffect": "flakExplosion",
-        "despawnEffect": "flakExplosion",
         "smokeEffect": "none"
         }
     },
