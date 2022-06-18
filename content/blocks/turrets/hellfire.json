@@ -84,7 +84,7 @@
        "offset": 30,
        "sizeFrom": 4,
        "sizeTo": 0,
-       "region": "/sprites/blocks/turrets/bullets/triangle.png",
+       "region": "/sprites/blocks/turrets/bullets/-triangle",
        "length": 105,
        "lifetime": 30,
        "colorFrom": "73FFAEFF",
@@ -207,7 +207,7 @@
 		"fragCone": 380,
 		"fragBullet": {
 		"type": "basicBulletType",
-		"sprite" : "/sprites/blocks/turrets/bullets/plasma.png",
+		"sprite" : "/sprites/blocks/turrets/bullets/-plasma",
 		"status" : "corroded",
 		"statusDuration": 300,
 		"height" : 15,
