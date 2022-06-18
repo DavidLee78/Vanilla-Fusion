@@ -1,0 +1,69 @@
+{
+    "type": "ItemTurret",
+    "researchCostMultiplier": 0.25,
+    "size": 2,
+    "health": 240,
+    "reloadTime": 34,
+    "range": 140,
+    "maxAmmo": 20,
+    "shots": 2,
+    "alternate": true,
+    "spread": 7,
+    "targetAir": true,
+    "targetGround": true,
+    "recoilAmount": 0.7,
+    "restitution": 0.06,
+    "rotateSpeed": 3,
+    "shootSound": "shoot",
+    "ammoTypes": {
+        "satoshi": {
+        "type": "BasicBulletType",
+        "speed": 4,
+        "lifetime": 57,
+        "damage": 35,
+        "height": 16,
+        "width": 12,
+        "trailParam": 5,
+        "trailLength": 8,
+        "trailWidth": 3,
+        "knockback": 0.5,
+        "hitEffect": "hitBulletSmall",
+        "despawnEffect": "hitBulletSmall",
+        "smokeEffect": "none"
+        },
+        "ether": {
+        "type": "BasicBulletType",
+        "speed": 4,
+        "damage": 50,
+        "knockback": 1.8,
+        "lifetime": 57,
+	    "frontColor": "FFFFFFF",
+        "backColor": "403F3FFF",
+        "trailColor": "403F3FFF",
+        "trailParam": 5,
+        "trailLength": 8,
+        "trailWidth": 3,
+        "height": 16,
+        "width": 12,
+        "hitEffect": "blockExplosionSmoke",
+        "despawnEffect": "blockExplosionSmoke",
+        "smokeEffect": "none"
+        }
+    },
+    "consumes": {
+	"liquid": {
+	"liquid": "exotic-liquid",
+	"optional": true,
+	"update": false,
+	"amount": 0.4
+	}
+	},
+    "requirements": [
+        "satoshi/150",
+        "ether/10",
+        "lead/100"
+    ],
+    "category": "turret",
+    "research": "pyro"
+}
+
