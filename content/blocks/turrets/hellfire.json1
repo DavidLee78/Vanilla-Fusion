@@ -1,0 +1,65 @@
+{
+    "type": "ItemTurret",
+    "researchCostMultiplier": 0.2,
+    "size": 2,
+    "health": 240,
+    "reloadTime": 34,
+    "range": 300,
+    "maxAmmo": 20,
+    "shots": 2,
+    "alternate": true,
+    "spread": 7,
+    "targetAir": true,
+    "targetGround": true,
+    "recoilAmount": 0.7,
+    "restitution": 0.06,
+    "rotateSpeed": 3,
+    "shootSound": "shootBig",
+    "ammoTypes": {
+        "satoshi": {
+        "type": "BasicBulletType",
+        "speed": 4,
+        "damage": 25,
+        "lifetime": 25,
+        "height": 16,
+        "width": 12,
+        
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "pierce": true,
+        "knockback": 0.7,
+        "trailColor": "6B77A1FF",
+        "trailParam": 5,
+        "trailLength": 8,
+        "trailWidth": 3,
+        "smokeEffect": "none",
+        "frontColor": "95ABD9FF",
+        "backColor": "6B77A1FF"
+        },
+        "ether": {
+        "type": "BasicBulletType",
+        "speed": 6,
+        "damage": 75,
+        "knockback": 3,
+        "lifetime": 57,
+	    "frontColor": "FFFFFFF",
+        "backColor": "403F3FFF",
+        "trailColor": "403F3BBB",
+        "trailParam": 5,
+        "trailLength": 16,
+        "trailWidth": 3,
+        "height": 16,
+        "width": 12,
+        "hitEffect": "blockExplosionSmoke",
+        "despawnEffect": "blockExplosionSmoke",
+        "smokeEffect": "none"
+        }
+    },
+    "requirements": [
+        "satoshi/150",
+        "ether/25",
+        "lead/100"
+    ],
+    "category": "turret",
+    "research": "pyro"
+}
