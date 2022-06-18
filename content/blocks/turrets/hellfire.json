@@ -17,8 +17,8 @@
     "shootSound": "shoot",
     "ammoTypes": {
         "satoshi": {
-        "type": "BasicBulletType",
-        "speed": 4,
+        "type": "LightningBulletType",
+        "speed": 6,
         "lifetime": 57,
         "damage": 35,
         "height": 16,
@@ -26,14 +26,15 @@
         "trailParam": 5,
         "trailLength": 8,
         "trailWidth": 3,
-        "knockback": 0.5,
+        "knockback": 1,
         "hitEffect": "hitBulletSmall",
         "despawnEffect": "hitBulletSmall",
         "smokeEffect": "none"
         },
         "ether": {
-        "type": "BasicBulletType",
-        "speed": 4,
+        "type": "FlakBulletType",
+        "explodeRange": 40,
+        "speed": 6,
         "damage": 50,
         "knockback": 1.8,
         "lifetime": 57,
