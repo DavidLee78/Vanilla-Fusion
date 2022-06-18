@@ -15,6 +15,19 @@
     "rotateSpeed": 5,
     "shootSound": "shotgun",
     "ammoPerShot": 2,
+    	"chargeEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 15,
+    "lifetime": 20,
+    "length": 35,
+    "baseLength": -35,
+    "cone": -360,
+    "lenFrom": 10,
+    "lenTo": 0,
+    "colorFrom": "EC7458",
+    "colorTo": "f58859"
+	},
     "ammoTypes": {
         "satoshi": {
             "type": "shrapnelBulletType",
