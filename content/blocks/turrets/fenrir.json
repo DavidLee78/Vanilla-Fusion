@@ -844,7 +844,7 @@
 	},
     "requirements": [
         "ether/450",
-        "satohsi/4500",
+        "satoshi/4500",
         "thorium/800",
     ],
     "category": "turret",
