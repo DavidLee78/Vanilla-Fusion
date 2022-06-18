@@ -1,3 +1,5 @@
 /content/blocks/turrets/item/**
 /content/blocks/turrets/power/**
 /content/blocks/turrets/pillbox.hjson
+/sprites/sprites/**
+/sprites/sprites genesis/**
