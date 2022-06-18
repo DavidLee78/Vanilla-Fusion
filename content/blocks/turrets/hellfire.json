@@ -6,7 +6,7 @@
     "reloadTime": 34,
     "range": 140,
     "maxAmmo": 20,
-    "shots": 2,
+    "shots": 4,
     "alternate": true,
     "spread": 7,
     "targetAir": true,
