@@ -23,6 +23,18 @@
         "lifetime": 25,
         "height": 16,
         "width": 12,
+                "shootEffect": {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "sizeFrom": 12,
+        "sizeTo": 0,
+        "length": 0,
+        "interp": "swingIn",
+        "lifetime": 100,
+        "region": "exogenesis-energy-partical",
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "A9D8FFFF"
+        },
         "hitEffect": "blastExplosion",
         "despawnEffect": "blastExplosion",
         "pierce": true,
