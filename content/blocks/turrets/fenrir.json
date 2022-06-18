@@ -4,7 +4,7 @@
 	"range": 300,
 	"restitution": 0.2,
 	"minRange": 70,
-	"size": 3,
+	"size": 6,
 	"maxAmmo": "50",
 	"health": 2650,
 	"rotateSpeed": 2,
