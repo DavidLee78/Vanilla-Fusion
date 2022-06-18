@@ -3,3 +3,5 @@
 /content/blocks/turrets/pillbox.hjson
 /sprites/sprites/**
 /sprites/sprites genesis/**
+/content/blocks/turrets/units/**
+
