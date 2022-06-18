@@ -557,7 +557,7 @@
     "sideWidth": 1
 	}
 	},
-	"primal-red": {
+	"ether": {
 	"type": "MissileBulletType",
 	"speed": 5,
 	"damage": 2000,
