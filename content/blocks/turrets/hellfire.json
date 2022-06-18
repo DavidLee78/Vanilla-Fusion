@@ -54,21 +54,22 @@
         "smokeEffect": "none"
         },
         "ether": {
-        "type": "BasicBulletType",
+        "type": "FlakBulletType",
+        "explodeRange": 90,
         "speed": 4,
-        "damage": 50,
+        "damage": 200,
         "knockback": 1.8,
         "lifetime": 57,
 	    "frontColor": "ec7458",
         "backColor": "6e7080",
         "trailColor": "bc5452",
         "trailParam": 5,
-        "trailLength": 8,
+        "trailLength": 16,
         "trailWidth": 3,
         "height": 16,
         "width": 12,
-        "hitEffect": "blockExplosionSmoke",
-        "despawnEffect": "blockExplosionSmoke",
+        "hitEffect": "flakExplosion",
+        "despawnEffect": "flakExplosion",
         "smokeEffect": "none"
         }
     },
