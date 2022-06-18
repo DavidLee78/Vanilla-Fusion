@@ -15,7 +15,7 @@
 	"targetAir": "false",
    "ammoUseEffect": "none",
 	"ammoTypes": {
-		"lead": {
+		"satoshi": {
 			"type": "BasicBulletType",
 			"lifetime": 60,
 			"speed": 7.5,
@@ -43,7 +43,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "concrete", "amount": 5 },
+		{ "item": "satoshi", "amount": 5 },
 		{ "item": "copper", "amount": 10}
 	],
 	"category": "turret",
