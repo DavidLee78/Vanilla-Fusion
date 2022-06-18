@@ -27,6 +27,7 @@
 "ammoTypes": {
 	"thorium": {
 	"type": "MissileBulletType",
+	"sprite": "vanillafusion-warhead",
 	"speed": 5,
 	"damage": 700,
 	"hitShake": 8,
@@ -288,6 +289,7 @@
 	},
     "surge-alloy": {
 	"type": "MissileBulletType",
+	"sprite": "vanillafusion-warhead",
 	"speed": 5,
 	"status": "shocked",
 	"statusDuration": 100,
@@ -559,6 +561,7 @@
 	},
 	"ether": {
 	"type": "MissileBulletType",
+	"sprite": "vanillafusion-warhead",
 	"speed": 5,
 	"damage": 2000,
 	"hitShake": 8,
