@@ -11,21 +11,21 @@
 {
     "unit": "tank",
     	"requirements": [
-		{"item": "ether", "amount": 25},
+		{"item": "ether", "amount": 50},
        ],
     "time": 1000
   },
   {
     "unit": "novice",
     	"requirements": [
-		{"item": "ether", "amount": 75}
+		{"item": "ether", "amount": 100}
 	       ],
     "time": 2500
   }
     {
     "unit": "invader",
     	"requirements": [
-		{"item": "ether", "amount": 150}
+		{"item": "ether", "amount": 200}
 	       ],
     "time": 5000
   }
