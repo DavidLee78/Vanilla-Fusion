@@ -7,7 +7,7 @@
 	"inaccuracy": 1,
 	"rotatespeed": 12,
 	"ammoTypes": {
-		"voidore": {
+		"ether": {
 			"speed": 3.0,
 			"damage": 49.0,
 			"bulletWidth": 16,
@@ -25,7 +25,7 @@
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 5
 		},
-		"satoshi": {
+		"graphite": {
 			"speed": 3.0,
 			"damage": 35.0,
 			"bulletWidth": 16,
@@ -43,7 +43,7 @@
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 5
 		},
-		"graphite": {
+		"satoshi": {
 			"speed": 3.0,
 			"damage": 45.0,
 			"bulletWidth": 16,

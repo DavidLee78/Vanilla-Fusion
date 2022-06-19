@@ -17,7 +17,7 @@
     "rotateSpeed": 2,
     "shootSound": "laser",
 	"ammoTypes": {
-    "omega-blue": {
+    "satoshi": {
     "type": "basicBulletType",
     "status": "freezing",
     "lightning": 7,
@@ -124,7 +124,7 @@
     "splashDamageRadius": 38,
     "splashDamage": 66
         },
-    "plastanium": {
+    "ether": {
     "type": "basicBulletType",
     "status": "corroded",
     "lifetime": 70,
