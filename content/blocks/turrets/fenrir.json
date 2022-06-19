@@ -1,10 +1,10 @@
 {
     "type": "ItemTurret",
     "name": "Fenrir",
-    "description": "Fires high energy neutrons",
+    "description": "Fires high energy neutrons at high range",
     "health": 1250,
     "size": 2,
-    "reloadTime": 25,
+    "reloadTime": 40,
     "cooldown": 0.030,
     "range": 325,
     "recoilAmount": 3,
@@ -61,7 +61,8 @@
     },
     "requirements": [
         "ether/50",
-        "satoshi/500",
+        "satoshi/550",
+        "silicon/100",
     ],
     "category": "turret",
     "research": "pyro",

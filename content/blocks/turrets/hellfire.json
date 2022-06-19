@@ -1,5 +1,6 @@
 {
 "type": "ItemTurret",
+"researchCostMultiplier": 0.25,
 "name": "Hellfire",
 "description": "This heavy artillery is perfect for defending locations against hordes of enemys, it uses the Energy of Ether to bring thermobaric mayhem over the battlefield",
 "size": 4,
