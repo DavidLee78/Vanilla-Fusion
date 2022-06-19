@@ -21,7 +21,7 @@
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 25,
-	"craftTime": 425,
+	"craftTime": 250,
 	"craftEffect": {
     "type": "ParticleEffect",
     "particles": 15,
@@ -50,6 +50,6 @@
         "silicon/500",
 	],
 	"category": "production",
-	"research": "silicon-smelter",
-	"outputItem": "titanium/20"
+	"research": "npe-1",
+	"outputItem": "titanium/25"
 }

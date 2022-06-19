@@ -1,30 +1,55 @@
-{
+{	
 	"type": "GenericCrafter",
 	"name": "N.P.E-3 'Pyratite'",
 	"description": "Nuclear Properties Editor or N.P.E is used to change the Electron Structure of Copper to transmutate it into various Resources, the use of this technology costs Ether",
-	"itemCapacity": 100,
 	"researchCostMultiplier": 0.125,
-	"outputItem": {"item": "pyratite", "amount": 25},
+	"drawer": {
+	"type": "drawArcSmelter",
+    "flameColor": "73FFAEFF",
+    "midColor": "57D993FF",
+    "flameRad": 2,
+    "circleSpace": 2.6,
+    "circleStroke": 1.3,
+    "alpha": 5,
+    "particleRad": 15,
+    "particles": 60,
+    "particleLen": 5,
+    "particleStroke": 1.1,
+    "particleLife": 80
+	},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
-	"craftTime": 500,		
-	"craftEffect": "smeltsmoke",
+	"itemCapacity": 25,
+	"craftTime": 500,
+	"craftEffect": {
+    "type": "ParticleEffect",
+    "particles": 15,
+    "length": 20,
+    "offset": 3,
+    "cone": 360,
+    "interp": "circleOut",
+    "lifetime": 28,
+    "sizeFrom": 5,
+    "sizeTo": 0,
+    "colorTo": "73FFAEFF",
+    "colorFrom": "57D993FF"
+    },
+	"updateEffect": "none",
 	"consumes": {
-	    "power": 5,
+		"power": 5,
 		"items": {
 			"items": [
-				{ "item": "ether", "amount": 2},
+                "ether/1",
 			]
-		}
+			},
 	},
 	"requirements": [
-		{ "item": "ether", "amount": 100 },
-		{ "item": "satoshi", "amount": 1000 },
-		{ "item": "pyratite", "amount": 500 },
+        "ether/75 ",
+        "satoshi/100",
+        "pyratite/500",
 	],
 	"category": "production",
 	"research": "npe-2",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"outputItem": "pyratite/20"
 }

@@ -1,6 +1,6 @@
 {	
 	"type": "GenericCrafter",
-	"name": "N.P.E-3 'Surge-Alloy'",
+	"name": "N.P.E-5 'Surge-Alloy'",
 	"description": "Nuclear Properties Editor or N.P.E is used to change the Electron Structure of Copper to transmutate it into various Resources, the use of this technology costs Ether",
 	"researchCostMultiplier": 0.125,
 	"drawer": {
@@ -41,7 +41,7 @@
 		"power": 5,
 		"items": {
 			"items": [
-                "ether/5",
+                "ether/2",
 			]
 	},
 		"liquid": {
@@ -51,7 +51,7 @@
 	},
 	"requirements": [
         "ether/125 ",
-        "satoshi/1000",
+        "satoshi/1250",
         "surge-alloy/500",
 	],
 	"category": "production",

@@ -1,6 +1,6 @@
 {	
 	"type": "GenericCrafter",
-	"name": "N.P.E-3 'Plastanium'",
+	"name": "N.P.E-4 'Plastanium'",
 	"description": "Nuclear Properties Editor or N.P.E is used to change the Electron Structure of Copper to transmutate it into various Resources, the use of this technology costs Ether",
 	"researchCostMultiplier": 0.125,
 	"drawer": {
@@ -19,10 +19,9 @@
 	},
 	"size": 2,
 	"hasPower": true,
-	"hasLiquids": true,
 	"hasItems": true,
-	"itemCapacity": 80,
-	"craftTime": 750,
+	"itemCapacity": 25,
+	"craftTime": 500,
 	"craftEffect": {
     "type": "ParticleEffect",
     "particles": 15,
@@ -41,16 +40,16 @@
 		"power": 5,
 		"items": {
 			"items": [
-                "ether/2 ",
+                "ether/2",
 			]
-	},
+			},
 	},
 	"requirements": [
-        "ether/100 ",
-        "satoshi/1000",
+        "ether/100",
+        "satoshi/1250",
         "plastanium/500",
 	],
 	"category": "production",
 	"research": "npe-3",
-	"outputItem": "plastanium/15"
+	"outputItem": "plastanium/20"
 }
