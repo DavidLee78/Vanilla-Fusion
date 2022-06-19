@@ -45,9 +45,7 @@
 			},
 	},
 	"requirements": [
-        "ether/25 ",
-        "satoshi/500",
-        "silicon/250",
+          "copper/25 ",
 	],
 	"category": "production",
 	"research": "silicon-smelter",
