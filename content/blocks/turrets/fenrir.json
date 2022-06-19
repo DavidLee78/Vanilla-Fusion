@@ -62,8 +62,8 @@
     },
     "requirements": [
         "ether/50",
-        "satoshi/550",
-        "silicon/100",
+        "satoshi/750",
+        "silicon/250",
     ],
     "category": "turret",
     "research": "pyro",
