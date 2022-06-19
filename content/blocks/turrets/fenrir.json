@@ -677,14 +677,14 @@
    "shootEffect": {
    "type": "ParticleEffect",
     "particles": 3,
-    "length": 0,
+    "length": 5,
     "lifetime": 30,
     "interp": "swingIn",
     "offsetX": 8,
     "sizeFrom": 12.5,
     "sizeTo": 2,
     "colorFrom": "CB8EBFFF",
-    "colorTo": "8888BFFF"
+    "colorTo": "CB8EBFFF"
     },
 	"despawnEffect": {
     "type": "multiEffect",
