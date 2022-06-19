@@ -22,7 +22,7 @@
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 25,
-	"craftTime": 500,
+	"craftTime": 250,
 		"craftEffect": {
     "type": "ParticleEffect",
     "line": true,
