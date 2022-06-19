@@ -165,7 +165,7 @@
     ]
   },
   "shootShake": 4,
-  "shootSound": "coolplasmaboom",
+  "shootSound": "plasmaboom",
 	"restitution" : 0.04, 
 	"cooldown": 0.045,
 	"rotateSpeed": 2.5,
