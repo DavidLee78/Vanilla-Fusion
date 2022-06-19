@@ -3,6 +3,7 @@
     "name": "Ember",
     "description": "Brings alot of desctruction at a short range"
     "researchCostMultiplier": 0.25,
+    buildCostMultiplier": 0.5,
     "size": 1,
     "health": 140,
     "reloadTime": 70,
