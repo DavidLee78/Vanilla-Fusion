@@ -1,7 +1,7 @@
 	"type": "UnitFactory",
 	"health": 500,
 	"name": "Unit Center",
-	"description":"Consumes ether to build  the most advanced units ",
+	"description":"Consumes ether to build the most advanced units ",
 	"size": 7,
 	"itemCapacity": 30,
 	"consumes": {
@@ -31,10 +31,10 @@
   }
 ],
     "requirements": [
-	{"item": "silicon", "amount": 580},
-	{"item": "graphite", "amount": 180},
-	{"item": "ether", "amount": 150},
-	{"item": "titanium", "amount": 150}
+	{"item": "ether", "amount": 100},
+	{"item": "satoshi", "amount": 1000},
+	{"item": "silicon", "amount": 250},
+	{"item": "titanium", "amount": 500}
 ],
 	"category": "units"
-	"research": "ethermine"
+	"research": "command-center"
