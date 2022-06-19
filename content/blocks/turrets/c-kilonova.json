@@ -171,7 +171,6 @@
 	"rotateSpeed": 2.5,
     "shootType" : {
     "type": "empBulletType",
-    "status": "melted",
     "timeIncrease": 0,
     "powerDamageScl": 1,
     "powerSclDecrease": 0.1,
