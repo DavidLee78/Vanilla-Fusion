@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "name": "Ember",
-    "description": "Fires Ether with high energy output, brings alot of desctruction at a short range"
+    "description": "Brings alot of desctruction at a short range"
     "researchCostMultiplier": 0.25,
     "size": 1,
     "health": 140,
@@ -31,7 +31,7 @@
     "colorTo": "f58859"
 	},
     "ammoTypes": {
-        "ether": {
+        "satoshi": {
             "type": "shrapnelBulletType",
             "lifetime": 19,
             "damage": 35,
@@ -47,7 +47,7 @@
         }
     },
     "requirements": [
-		{ "item": "ether", "amount": 15 },
+		{ "item": "ether", "amount": 10 },
 		{ "item": "satoshi", "amount": 250 },
 		{ "item": "lead", "amount": 150 }
     ],
