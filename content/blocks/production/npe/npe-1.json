@@ -3,6 +3,7 @@
 	"name": "N.P.E-1 'Silicon'",
 	"description": "Nuclear Properties Editor or N.P.E is used to change the Electron Structure of Copper to transmutate it into various Resources, the use of this technology costs Ether",
 	"researchCostMultiplier": 0.125,
+	"buildCostMultiplier": 0.2,
 	"drawer": {
 	"type": "drawArcSmelter",
     "flameColor": "73FFAEFF",
@@ -22,19 +23,18 @@
 	"hasItems": true,
 	"itemCapacity": 25,
 	"craftTime": 500,
-	"craftEffect": {
+		"craftEffect": {
     "type": "ParticleEffect",
-    "particles": 15,
-    "length": 20,
-    "offset": 3,
-    "cone": 360,
-    "interp": "circleOut",
-    "lifetime": 28,
-    "sizeFrom": 5,
-    "sizeTo": 0,
-    "colorTo": "73FFAEFF",
-    "colorFrom": "57D993FF"
-    },
+    "line": true,
+    "particles": 6,
+    "lifetime": 50,
+    "length": 25,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+	},
 	"updateEffect": "none",
 	"consumes": {
 		"power": 5,

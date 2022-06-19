@@ -14,9 +14,9 @@
 	"itemCapacity": 10,	
 	"craftEffect": {
     "type": "ParticleEffect",
-    "particles": 3,
-    "length": 20,
-    "baseLength": -20,
+    "particles": 2,
+    "length": 10,
+    "baseLength": -5,
     "offset": 3,
     "cone": 360,
     "lifetime": 28,
