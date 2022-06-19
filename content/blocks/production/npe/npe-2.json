@@ -41,14 +41,14 @@
 		"power": 5,
 		"items": {
 			"items": [
-                "ether/1",
+                "ether/2",
 			]
 			},
 	},
 	"requirements": [
         "ether/50 ",
         "satoshi/750",
-        "silicon/500",
+        "titanium/500",
 	],
 	"category": "production",
 	"research": "npe-1",

@@ -22,7 +22,7 @@
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 25,
-	"craftTime": 500,
+	"craftTime": 250,
 	"craftEffect": {
     "type": "ParticleEffect",
     "particles": 15,
@@ -41,7 +41,7 @@
 		"power": 5,
 		"items": {
 			"items": [
-                "ether/1",
+                "ether/2",
 			]
 			},
 	},
