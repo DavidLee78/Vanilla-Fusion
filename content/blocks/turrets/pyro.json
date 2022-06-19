@@ -2,8 +2,7 @@
     "type": "ItemTurret",
     "name": "Ember",
     "description": "Brings alot of desctruction at a short range"
-    "researchCostMultiplier": 0.25,
-    buildCostMultiplier": 0.5,
+    "researchCostMultiplier": 0.1,
     "size": 1,
     "health": 140,
     "reloadTime": 70,
@@ -48,7 +47,7 @@
         }
     },
     "requirements": [
-		{ "item": "ether", "amount": 5 },
+		{ "item": "ether", "amount": 15 },
 		{ "item": "satoshi", "amount": 250 },
 		{ "item": "lead", "amount": 250 }
     ],
