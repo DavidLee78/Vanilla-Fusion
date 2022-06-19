@@ -675,15 +675,16 @@
     ]    
     },
    "shootEffect": {
-    "type": "ExplosionEffect",
-    "smokes": 2,
-    "lifetime": 1500,
+   "type": "ParticleEffect",
+    "particles": 3,
+    "length": 0,
+    "lifetime": 30,
     "interp": "swingIn",
-    "offsetX": 0,
-    "smokeSize": 100,
-    "smokeSizeBase": 2500,
-    "smokeColor": "FF5845FF",
-    "sparkColor": "DE4136Dff"
+    "offsetX": 8,
+    "sizeFrom": 12.5,
+    "sizeTo": 2,
+    "colorFrom": "CB8EBFFF",
+    "colorTo": "8888BFFF"
     },
 	"despawnEffect": {
     "type": "multiEffect",
