@@ -1,10 +1,10 @@
 {
 "type": "ItemTurret",
-"size": 6,
+"size": 6,5
 "health": 4680,
 "range": 300,
 "reloadTime": 100,
-"shootSound": "shootBig2",
+"shootSound": "bang",
 "rotateSpeed": 2.5,
 "shootShake": 4.5,
 "cooldown": 0.03,
