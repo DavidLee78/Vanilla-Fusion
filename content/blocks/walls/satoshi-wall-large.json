@@ -6,7 +6,7 @@
     "size": 2,
     "requirements": [
         {"item": "satoshi", "amount": 50},
-        {"item": "copper", "amount": 100}
+        {"item": "copper", "amount": 50}
     ],
     "category": "defense",
     "research": "satoshi-wall"
