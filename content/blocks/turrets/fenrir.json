@@ -3,7 +3,7 @@
     "name": "Fenrir",
     "researchCostMultiplier": 0.1,
     "buildCostMultiplier": 0.2,
-    "description": "Fires high energy neutrons at high range",
+    "description": "High range energy sniper, using Ether adds light charges perfect for defending against groups of enemys",
     "health": 1250,
     "size": 2,
     "reloadTime": 40,
@@ -38,7 +38,7 @@
           },
         "ether": {
             "type":"BasicBulletType",
-            "speed": 10,
+            "speed": 7,
             "lifetime": 70,
             "damage": 75,
             "width": 15,
@@ -62,8 +62,8 @@
             }
     },
     "requirements": [
-        "ether/50",
-        "satoshi/750",
+        "ether/25",
+        "satoshi/500",
         "silicon/250",
     ],
     "category": "turret",

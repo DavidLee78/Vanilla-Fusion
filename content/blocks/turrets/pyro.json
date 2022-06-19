@@ -48,8 +48,8 @@
         }
     },
     "requirements": [
-		{ "item": "ether", "amount": 15 },
-		{ "item": "satoshi", "amount": 325 },
+		{ "item": "ether", "amount": 10 },
+		{ "item": "satoshi", "amount": 250 },
 		{ "item": "lead", "amount": 250 }
     ],
     "category": "turret",

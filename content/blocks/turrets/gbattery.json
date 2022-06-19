@@ -89,9 +89,9 @@
 		    	}
 	},
 	"requirements": [
-        "graphite/450",
-        "silicon/600",
-        "ether/700",
+        "ether/250",
+        "satoshi/2500",
+        "graphite/200",
 	],
 	"category": "turret",
 	"research": "duo"

@@ -573,9 +573,11 @@
 	}
 	},
     "requirements": [
-        "ether/150",
+        "ether/100",
         "satoshi/1000",
-        "thorium/750"
+        "titanium/500",
+        "thorium/250",
+        "surge-alloy/100"
     ],
     "category": "turret",
     "research": "fenrir"
