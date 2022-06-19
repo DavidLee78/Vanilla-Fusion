@@ -1,5 +1,6 @@
 {	
     "type": "GenericSmelter", 
+     "buildCostMultiplier": 0.5,
 	"drawer": {
 	"type": "DrawSmelter",
 	"flameColor": "73FFAEFF"
