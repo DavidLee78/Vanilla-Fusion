@@ -10,7 +10,7 @@
 "cooldown": 0.03,
 "consumes": {
 "liquid": {
-"liquid": "slag",
+"liquid": "exotic-liquid",
 "optional": true,
 "update": false,
 "amount": 0.4
@@ -19,7 +19,7 @@
 "inaccuracy": 6,
 "spread": 11,
 "alternate": true,
-"shots": 3,
+"shots": 1,
 "targetAir": true,
 "targetGround": true,
 "heatColor": "5B4CB0FF",
@@ -148,7 +148,7 @@
     "lifetime": 15,
     "interp": "swingIn",
     "offsetX": 8,
-    "sizeFrom": 50,
+    "sizeFrom": 20,
     "sizeTo": 1,
     "colorFrom": "CB8EBFFF",
     "colorTo": "CB8EBFFF"
@@ -406,11 +406,11 @@
    "shootEffect": {
     "type": "ParticleEffect",
     "particles": 1,
-    "length": 0,
+    "length": 1,
     "lifetime": 15,
     "interp": "swingIn",
-    "offsetX": 8,
-    "sizeFrom": 50,
+    "offsetX": 1,
+    "sizeFrom": 30,
     "sizeTo": 1,
     "colorFrom": "FF5845FF",
     "colorTo": "DE4136Dff"
