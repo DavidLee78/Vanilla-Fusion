@@ -1,10 +1,10 @@
 {
 	"type": "GenericCrafter",
-	"name": "N.P.E-3 'Titanium'",
+	"name": "N.P.E-3 'Pyratite'",
 	"description": "Nuclear Properties Editor or N.P.E is used to change the Electron Structure of Copper to transmutate it into various Resources, the use of this technology costs Ether",
 	"itemCapacity": 100,
 	"researchCostMultiplier": 0.125,
-	"outputItem": {"item": "titanium", "amount": 25},
+	"outputItem": {"item": "pyratite", "amount": 25},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
@@ -21,7 +21,7 @@
 	"requirements": [
 		{ "item": "ether", "amount": 100 },
 		{ "item": "satoshi", "amount": 1000 },
-		{ "item": "titanium", "amount": 500 },
+		{ "item": "pyratite", "amount": 500 },
 	],
 	"category": "production",
 	"research": "npe-2",

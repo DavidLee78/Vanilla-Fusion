@@ -19,9 +19,9 @@
 		}
 	},
 	"requirements": [
-		{ "item": "ether", "amount": 50 },
-		{ "item": "satoshi", "amount": 750 },
-		{ "item": "silicon", "amount": 500 },
+		{ "item": "ether", "amount": 25 },
+		{ "item": "satoshi", "amount": 500 },
+		{ "item": "silicon", "amount": 250 },
 	],
 	"category": "production",
 	"research": "silicon-smelter",
