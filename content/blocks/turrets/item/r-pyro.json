@@ -1,6 +1,6 @@
 {
     "type": "ItemTurret",
-    "researchCostMultiplier": 0.25,
+    "researchCostMultiplier": 0.1,
     "size": 1,
     "health": 140,
     "reloadTime": 70,
@@ -15,24 +15,11 @@
     "rotateSpeed": 5,
     "shootSound": "shotgun",
     "ammoPerShot": 2,
-    	"chargeEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 15,
-    "lifetime": 20,
-    "length": 35,
-    "baseLength": -35,
-    "cone": -360,
-    "lenFrom": 10,
-    "lenTo": 0,
-    "colorFrom": "EC7458",
-    "colorTo": "f58859"
-	},
     "ammoTypes": {
-        "satoshi": {
+        "coal": {
             "type": "shrapnelBulletType",
             "lifetime": 19,
-            "damage": 35,
+            "damage": 48,
             "serrations": 3,
             "fromColor": "FF8142FF",
             "toColor": "7e7e7e",
@@ -45,10 +32,10 @@
         }
     },
     "requirements": [
-		{ "item": "satoshi", "amount": 250 },
-		{ "item": "copper", "amount": 100 },
-		{ "item": "lead", "amount": 75 }
+		{ "item": "copper", "amount": 50 },
+		{ "item": "volcanite", "amount": 34 }
     ],
     "category": "turret",
     "research": "duo"
 }
+            

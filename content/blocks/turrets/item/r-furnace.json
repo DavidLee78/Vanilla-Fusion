@@ -1,16 +1,16 @@
 {
 "type": "ItemTurret",
-"size": 2,
+"size": 6,
 "health": 4680,
 "range": 300,
 "reloadTime": 100,
-"shootSound": "shootBig",
+"shootSound": "bang",
 "rotateSpeed": 2.5,
 "shootShake": 4.5,
 "cooldown": 0.03,
 "consumes": {
 "liquid": {
-"liquid": "exotic-liquid",
+"liquid": "slag",
 "optional": true,
 "update": false,
 "amount": 0.4
@@ -30,6 +30,7 @@
 	"speed": 5,
 	"damage": 700,
 	"hitShake": 8,
+	"sprite": "vanillafusion-warhead",
     "height": 30,
     "width": 20,
     "splashDamage": 200,
@@ -147,6 +148,7 @@
     "length": 0,
     "lifetime": 15,
     "interp": "swingIn",
+    "region": "exogenesis-spikething",
     "offsetX": 8,
     "sizeFrom": 25,
     "sizeTo": 1,
@@ -285,7 +287,7 @@
     "backColor": "CB8EBFFF"
 	}
 	},
-    "satoshi": {
+    "surge-alloy": {
 	"type": "MissileBulletType",
 	"speed": 5,
 	"status": "shocked",
@@ -294,6 +296,7 @@
 	"splashDamage": 300,
 	"splashDamageRadius": 50,
 	"hitShake": 8,
+	"sprite": "exogenesis-warhead",
     "height": 30,
     "width": 20,
     "trailEffect": "none",
@@ -409,6 +412,7 @@
     "length": 0,
     "lifetime": 15,
     "interp": "swingIn",
+    "region": "exogenesis-spikething",
     "offsetX": 8,
     "sizeFrom": 25,
     "sizeTo": 1,
@@ -555,11 +559,12 @@
     "sideWidth": 1
 	}
 	},
-	"ether": {
+	"primal-red": {
 	"type": "MissileBulletType",
 	"speed": 5,
 	"damage": 2000,
 	"hitShake": 8,
+	"sprite": "exogenesis-warhead",
 	"splashDamage": 400,
 	"splashDamageRadius": 50,
     "height": 30,
@@ -679,6 +684,7 @@
     "length": 0,
     "lifetime": 15,
     "interp": "swingIn",
+    "region": "exogenesis-spikething",
     "offsetX": 8,
     "sizeFrom": 25,
     "sizeTo": 1,
@@ -840,10 +846,13 @@
 	}
 	},
     "requirements": [
-        "ether/50",
-        "satoshi/750",
-        "silicon/125"
+        "volcanite/450",
+        "thorium/600",
+        "osmium/800",
+        "primal-red/700",
+        "silicon/700",
+        "copper/430"
     ],
     "category": "turret",
-    "research": "pyro"
+    "research": "r-brimstone"
 }

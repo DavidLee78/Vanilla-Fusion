@@ -6,3 +6,5 @@
 /content/blocks/turrets/units/**
 
 /sprites/blocks/turrets/clipboard.png
+!/content/blocks/turrets/item/*
+
