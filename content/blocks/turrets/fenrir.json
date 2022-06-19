@@ -1,8 +1,6 @@
 {
 "type": "ItemTurret",
-"outlineIcon": true,
-"name": "Hellfire",
-"size": 4,
+"size": 6,
 "health": 4680,
 "range": 300,
 "reloadTime": 100,
@@ -27,14 +25,14 @@
 "heatColor": "5B4CB0FF",
 "recoilAmount": 3,
 "ammoTypes": {
-	"thorium": {
+	"satoshi": {
 	"type": "MissileBulletType",
 	"speed": 5,
-	"damage": 350,
+	"damage": 500,
 	"hitShake": 8,
     "height": 30,
     "width": 20,
-    "splashDamage": 100,
+    "splashDamage": 150,
 	"splashDamageRadius": 50,
     "trailEffect": "none",
     "trailColor": "CB8EBFFF",
@@ -149,6 +147,7 @@
     "length": 0,
     "lifetime": 15,
     "interp": "swingIn",
+    "region": "exogenesis-spikething",
     "offsetX": 8,
     "sizeFrom": 25,
     "sizeTo": 1,
@@ -286,6 +285,7 @@
     "frontColor": "F9A3C7FF",
     "backColor": "CB8EBFFF"
 	}
+	},
 	"ether": {
 	"type": "MissileBulletType",
 	"speed": 5,
@@ -411,7 +411,7 @@
     "lifetime": 15,
     "interp": "swingIn",
     "offsetX": 8,
-    "sizeFrom": 25,
+    "sizeFrom": 50,
     "sizeTo": 1,
     "colorFrom": "FF5845FF",
     "colorTo": "DE4136Dff"
@@ -571,6 +571,8 @@
 	}
 	},
     "requirements": [
+        "ether/450",
+        "thorium/600",
         "copper/430"
     ],
     "category": "turret",
