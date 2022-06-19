@@ -1,6 +1,6 @@
 {
 "type": "ItemTurret",
-"size": 6,5
+"size": 5,
 "health": 4680,
 "range": 300,
 "reloadTime": 100,
@@ -818,10 +818,10 @@
     "cone": -360,
     "lenFrom": 6,
     "lenTo": 6,
-    "lightColor": "FF5845FF",
+    "lightColor": "3333FF",
     "strokeFrom": 3,
     "strokeTo": 0,
-    "colorFrom": "FF5845FF",
+    "colorFrom": "3333FF",
     "colorTo": "DE4136ff"    
     },
     "hitEffect": {
