@@ -2,6 +2,7 @@
     "type": "ItemTurret",
     "name": "Fenrir",
     "researchCostMultiplier": 0.1,
+    "buildCostMultiplier": 0.2,
     "description": "Fires high energy neutrons at high range",
     "health": 1250,
     "size": 2,
