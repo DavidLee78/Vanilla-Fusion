@@ -19,9 +19,8 @@
 	},
 	"size": 2,
 	"hasPower": true,
-	"hasLiquids": true,
 	"hasItems": true,
-	"itemCapacity": 80,
+	"itemCapacity": 25,
 	"craftTime": 500,
 	"craftEffect": {
     "type": "ParticleEffect",
@@ -52,5 +51,5 @@
 	],
 	"category": "production",
 	"research": "silicon-smelter",
-	"outputItem": "silicon/10"
+	"outputItem": "silicon/25"
 }
