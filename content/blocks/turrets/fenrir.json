@@ -676,12 +676,12 @@
     },
    "shootEffect": {
     "type": "ExplosionEffect",
-    "smokes": 1,
+    "smokes": 2,
     "lifetime": 15,
     "interp": "swingIn",
-    "offsetX": 8,
-    "smokeSize": 25,
-    "smokeSizeBase": 1,
+    "offsetX": 0,
+    "smokeSize": 1,
+    "smokeSizeBase": 25,
     "smokeColor": "FF5845FF",
     "sparkColor": "DE4136Dff"
     },
