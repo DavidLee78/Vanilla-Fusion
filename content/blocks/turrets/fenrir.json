@@ -675,7 +675,8 @@
     ]    
     },
    "shootEffect": {
-   "type": "ParticleEffect",
+   "type": "massiveExplosion",
+    
     "particles": 3,
     "length": 5,
     "lifetime": 30,
