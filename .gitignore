@@ -8,3 +8,4 @@
 /sprites/blocks/turrets/clipboard.png
 !/content/blocks/turrets/item/*
 
+/content/blocks/turrets/item/**
