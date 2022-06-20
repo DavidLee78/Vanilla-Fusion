@@ -1,0 +1,57 @@
+{	
+  "name": "ETH-Mixer '2x'",
+	"description": "Used power and liquid to multiply Ether",
+	"type": "GenericCrafter",
+	"drawer": {
+  "type": "drawArcSmelter",
+  "flameColor": "66B1FFFF",
+  "midColor": "A9D8FFFF",
+  "flameRad": 1.6,
+  "circleSpace": 2,
+  "circleStroke": 0.9,
+  "alpha": 2,
+  "particleRad": 10,
+  "particles": 32,
+  "particleLen": 5,
+  "particleStroke": 0.9,
+  "particleLife": 80
+	},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 50,
+	"liquidCapacity" 25,
+	"craftTime": 5000,
+	"craftEffect": {
+	"type": "WaveEffect",
+    "lifetime": 60,
+    "sizeFrom": 0,
+    "sizeTo": 20,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+	},
+	"updateEffect": "none",
+	"consumes": {
+		"power": 10,
+		"items": {
+			"items": [
+			"ether/50"]
+		}
+		"liquid": {
+			"liquid": "slag",
+			"amount": 5,
+		}
+	},
+	"requirements": [
+	   "ether/250",
+		"satoshi/1500",
+		"surge-alloy/250",
+		"plastanium/250",
+	],
+	"category": "crafting",
+	"research": "b-silicon-kiln",
+	"outputItem": "omega-blue/2"
+}
