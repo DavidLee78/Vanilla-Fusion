@@ -14,7 +14,7 @@
     "explosionDamage": 2500,
 	"hasLiquids": true,
 	"hasItems": true,
-	"powerProduction": 40,
+	"powerProduction": 100,
 	"itemDuration": 50,
 	"heating": 0.05,
 	"randomlyExplode": true,
