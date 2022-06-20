@@ -38,7 +38,7 @@
 	},
 	"updateEffect": "none",
 	"consumes": {
-		"power": 10,
+		"power": 25,
 		"items": {
 			"items": [
 			"ether/25"]
