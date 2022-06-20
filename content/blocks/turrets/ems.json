@@ -1,5 +1,7 @@
 {
 	"type": "ItemTurret",
+	"name": "EMS",
+	"description": "Energy Missle System, short EMS can shoot multiplie types of energy missles, using Ether-missles causes lightning damage.",
 	"health": 1200,
 	"size": 3,
 	"reloadTime": 17,
