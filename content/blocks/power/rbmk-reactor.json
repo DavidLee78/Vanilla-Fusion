@@ -21,7 +21,7 @@
     "consumes": {
     "items": {
 	"items": [
-    "satoshi/10"
+    "satoshi/2"
 			]
 	},
 		"liquid": {
