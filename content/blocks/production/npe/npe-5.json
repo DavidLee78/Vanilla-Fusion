@@ -45,10 +45,6 @@
                 "ether/2",
 			]
 	},
-		"liquid": {
-			"liquid": "exotic-liquid",
-			"amount": 0.1
-		}
 	},
 	"requirements": [
         "ether/125 ",
