@@ -1,6 +1,6 @@
 {
 	"type": "NuclearReactor",
-	"researchCostMultiplier": 0.125,
+	"researchCostMultiplier": 0.2,
     "name": "Fragile RBMK Reactor",
 	"description": "This old soviet reactor is traded cheap at the markets. Its obsolete technology is more like a relic than something that should be used... ",
 	"health": 1200,
