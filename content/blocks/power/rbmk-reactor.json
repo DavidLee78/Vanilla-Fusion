@@ -10,7 +10,7 @@
 	"ambientSound": "hum",
 	"ambientSoundVolume": 0.35,
 	"lightColor": "F0D4D9FF",
-    "explosionRadius": 100,
+    "explosionRadius": 225,
     "explosionDamage": 2500,
 	"hasLiquids": true,
 	"hasItems": true,
