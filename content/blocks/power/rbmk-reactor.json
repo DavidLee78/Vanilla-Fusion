@@ -18,6 +18,9 @@
 	"heating": 0.02,
 	"randomlyExplode": true,
 	"consumes": {
+	"item": {
+	"item": "satoshi/10", 
+	}
 		"liquid": {
 			"liquid": "water",
 			"amount": 0.15
