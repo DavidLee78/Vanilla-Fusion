@@ -21,7 +21,7 @@
 	"hasLiquids": true,
 	"hasItems": true,
 	"itemCapacity": 50,
-	"liquidCapacity" 25,
+	"liquidCapacity": 25,
 	"craftTime": 5000,
 	"craftEffect": {
 	"type": "WaveEffect",
