@@ -15,7 +15,7 @@
 	"hasLiquids": true,
 	"hasItems": true,
 	"powerProduction": 45,
-	"itemDuration": 25,
+	"itemDuration": 40,
 	"heating": 0.05,
 	"randomlyExplode": true,
     "consumes": {
