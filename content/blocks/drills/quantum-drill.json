@@ -1,12 +1,11 @@
 {
 	"type": "Drill",
-	"name": "Quantum Mine",
+	"name": "Quantum Drill",
 	"description": "One of the most advanced drills, the use of this technology costs Ether",
 	"size": 4,
 	"tier": 14,
 	"rotateSpeed": 5.5,
 	"drillTime": 40,
-	"liquidBoostIntensity": 3,
 	"drawRim": true,
  "itemCapacity": 100,
 	"warmupSpeed": 0.0878,
@@ -30,18 +29,13 @@
 	"liquidCapacity": 25,
 	"expanded": true,
 	"consumes": {
-		"power": 45,
+		"power": 15,
 		"liquid": {
 			"liquid": "exotic-liquid",
 			"amount": 0.31,
-			"booster": true,
-			"optional": true
+			"booster": false,
+			"optional": false
 		}
-		"items": {
-		"items": [
-				{ "item": "ether", "amount": 1 }
-			]
-		},
 	},
 	"requirements": [
         "ether/100",
