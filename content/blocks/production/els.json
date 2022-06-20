@@ -1,6 +1,6 @@
 {
 	"type": "GenericCrafter",
-	"name": "Exotic Liquid Smelter",
+	"name": "Exotic Liquid Melter",
 	"description": "Changes the structure of Ether and created Exotic Liquid",
 	"outputLiquid": {"liquid": "exotic-liquid", "amount": 22},
 	"size": 1,
@@ -16,7 +16,7 @@
 		"items": {
 			"items": [
 				{ "item": "ether", "amount": "1" }
-				{ "item": "thorium", "amount": "1" }
+				{ "item": "satoshi", "amount": "1" }
 				{ "item": "surge-alloy", "amount": "1" }
 			]
 		}
