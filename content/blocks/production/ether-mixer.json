@@ -4,6 +4,7 @@
 	"type": "GenericCrafter",
 	"drawer": {
   "type": "drawArcSmelter",
+  
   "flameColor": "66B1FFFF",
   "midColor": "A9D8FFFF",
   "flameRad": 1.6,
@@ -17,12 +18,14 @@
   "particleLife": 80
 	},
 	"size": 2,
+	"researchCostMultiplier": 0.125,
+	"buildCostMultiplier": 0.2,
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
-	"itemCapacity": 50,
+	"itemCapacity": 25,
 	"liquidCapacity": 25,
-	"craftTime": 5000,
+	"craftTime": 2500,
 	"craftEffect": {
 	"type": "WaveEffect",
     "lifetime": 60,
@@ -38,7 +41,7 @@
 		"power": 10,
 		"items": {
 			"items": [
-			"ether/50"]
+			"ether/25"]
 		}
 		"liquid": {
 			"liquid": "slag",
@@ -46,12 +49,12 @@
 		}
 	},
 	"requirements": [
-	   "ether/250",
+	    "ether/250",
 		"satoshi/1500",
-		"surge-alloy/250",
-		"plastanium/250",
+		"titanium/500",
+		"silicon/250",
 	],
 	"category": "crafting",
 	"research": "b-silicon-kiln",
-	"outputItem": "omega-blue/2"
+	"outputItem": "ether/50"
 }
