@@ -30,7 +30,7 @@
 		}
 	},
 	"requirements": [
-        "ether/50",
+        "ether/100",
         "satoshi/500",
 	],
 	"category": "power",
