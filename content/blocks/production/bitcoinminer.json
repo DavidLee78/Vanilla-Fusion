@@ -27,7 +27,7 @@
     "colorTo": "73FFAEFF"
 	},
 	"consumes": {
-		    "power": 50,
+		    "power": 20,
 		}
 	"requirements": [
 		{ "item": "satoshi", "amount": 1000 },
@@ -36,5 +36,5 @@
 	],
 	"category": "power",
 	"research": "satoshiminer",
-	"outputItem": "satoshi/5"
+	"outputItem": "satoshi/10"
 }
