@@ -46,11 +46,11 @@
 			},
 	},
 	"requirements": [
-        "ether/50 ",
+        "ether/75 ",
         "satoshi/750",
         "titanium/500",
 	],
 	"category": "production",
 	"research": "npe-1",
-	"outputItem": "titanium/25"
+	"outputItem": "titanium/50"
 }

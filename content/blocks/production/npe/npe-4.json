@@ -41,16 +41,16 @@
 		"power": 5,
 		"items": {
 			"items": [
-                "ether/3",
+                "ether/2",
 			]
 			},
 	},
 	"requirements": [
-        "ether/100",
+        "ether/300",
         "satoshi/1250",
         "plastanium/500",
 	],
 	"category": "production",
 	"research": "npe-3",
-	"outputItem": "plastanium/20"
+	"outputItem": "plastanium/25"
 }

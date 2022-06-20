@@ -42,16 +42,16 @@
 		"power": 5,
 		"items": {
 			"items": [
-                "ether/2",
+                "ether/3",
 			]
 	},
 	},
 	"requirements": [
-        "ether/125 ",
+        "ether/500 ",
         "satoshi/1250",
         "surge-alloy/500",
 	],
 	"category": "production",
 	"research": "npe-4",
-	"outputItem": "surge-alloy/20"
+	"outputItem": "surge-alloy/50"
 }

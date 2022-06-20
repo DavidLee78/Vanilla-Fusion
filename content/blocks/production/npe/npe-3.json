@@ -46,11 +46,11 @@
 			},
 	},
 	"requirements": [
-        "ether/75 ",
-        "satoshi/100",
+        "ether/150 ",
+        "satoshi/1000",
         "pyratite/500",
 	],
 	"category": "production",
 	"research": "npe-2",
-	"outputItem": "pyratite/20"
+	"outputItem": "pyratite/25"
 }
