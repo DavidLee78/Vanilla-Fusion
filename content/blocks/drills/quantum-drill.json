@@ -5,9 +5,9 @@
 	"size": 4,
 	"tier": 14,
 	"rotateSpeed": 5.5,
-	"drillTime": 40,
+	"drillTime": 80,
 	"drawRim": true,
- "itemCapacity": 100,
+ "itemCapacity": 140,
 	"warmupSpeed": 0.0878,
 	"updateEffect": {
 	"type": "ParticleEffect",
@@ -38,11 +38,11 @@
 		}
 	},
 	"requirements": [
-        "ether/100",
-        "satoshi/500",
+        "ether/200",
+        "satoshi/1000",
         "thorium/750",
         "metaglass/500",
-        "silicon/1000",
+        "silicon/500",
         "lead/1000"
 	],
 	"category": "production",

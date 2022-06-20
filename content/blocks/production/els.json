@@ -1,8 +1,8 @@
 {
 	"type": "GenericCrafter",
 	"name": "Exotic Liquid Melter",
-	"description": "Changes the structure of Ether and created Exotic Liquid",
-	"outputLiquid": {"liquid": "exotic-liquid", "amount": 22},
+	"description": "Melts rare materials into exotic liquid",
+	"outputLiquid": {"liquid": "exotic-liquid", "amount": 10},
 	"size": 1,
 	"hasPower": true,
 	"hasLiquids": true,
@@ -15,19 +15,19 @@
 		"power": 5,
 		"items": {
 			"items": [
-				{ "item": "ether", "amount": "1" }
-				{ "item": "satoshi", "amount": "1" }
-				{ "item": "surge-alloy", "amount": "1" }
+				{ "item": "ether", "amount": "5" }
+				{ "item": "surge-alloy", "amount": "5" }
+				{ "item": "thorium", "amount": "5" }
 			]
 		}
 	},
 	"requirements": [
-		{ "item": "ether", "amount": 50 },
+		{ "item": "ether", "amount": 50 	},
 		{ "item": "copper", "amount": 25 },
 		{ "item": "graphite", "amount": 15 }
 	],
 	"category": "crafting",
-	"research": "npe-3",
+	"research": "melter",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

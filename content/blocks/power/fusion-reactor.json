@@ -7,7 +7,7 @@
 	"itemCapacity": 25,
 	"liquidCapacity": 25,
 	"size": 5,
-	"ambientSound": "pulse",
+	"ambientSound": "hum",
 	"ambientSoundVolume": 0.2,
 	"lightColor": "9ed5ff",
     "explosionRadius": 50,
