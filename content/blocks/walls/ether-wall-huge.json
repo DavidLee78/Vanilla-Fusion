@@ -1,0 +1,19 @@
+{    
+    "type": "Wall",
+       "name": "Ether Wall Huge",
+    "description": "Built with one of the strongest material ever invented, causes lightning damage to attackers",
+    "buildCostMultiplier": 0.1,
+    "lightningSound": "spark",
+    "lightningChance": 0.60,
+    "lightningColor": "F3E979FF",
+    "lightningDamage": 48,
+    "lightningLength":28,
+    "health": 9900,
+    "size": 3,
+    "requirements": [
+        {"item": "ether", "amount": 345},
+        {"item": "surge-alloy", "amount": 95}
+    ],
+    "category": "defense",
+    "research": "ether-wall-large"
+}

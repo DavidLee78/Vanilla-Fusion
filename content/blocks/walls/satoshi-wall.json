@@ -2,15 +2,10 @@
     "type": "Wall",
     "name": "Satoshi Wall",
     "buildCostMultiplier": 0.5,
-    "lightningSound": "spark",
-    "lightningChance": 0.60,
-    "lightningColor": "F3E979FF",
-    "lightningDamage": 48,
-    "lightningLength":28,
-    "health": 750,
+    "health": 625,
     "size": 1,
     "requirements": [
-        {"item": "satoshi", "amount": 25},
+        {"item": "satoshi", "amount": 50},
         {"item": "copper", "amount": 25}
     ],
     "category": "defense",

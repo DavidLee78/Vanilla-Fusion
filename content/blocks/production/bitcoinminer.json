@@ -27,7 +27,7 @@
     "colorTo": "73FFAEFF"
 	},
 	"consumes": {
-		    "power": 20,
+		    "power": 10,
 		}
 	"requirements": [
 		{ "item": "satoshi", "amount": 1000 },
